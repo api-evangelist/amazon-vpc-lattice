@@ -9,10 +9,10 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Service Networking
+  - AWS
   - Microservices
   - Service Mesh
-  - AWS
+  - Service Networking
 url: >-
   https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/apis.yml
 created: '2026-03-16'
@@ -29,9 +29,9 @@ apis:
     humanURL: https://aws.amazon.com/vpc/lattice/
     baseURL: https://vpc-lattice.amazonaws.com
     tags:
-      - Service Networking
-      - Microservices
       - AWS
+      - Microservices
+      - Service Networking
     properties:
       - type: Documentation
         url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
