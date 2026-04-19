@@ -1,0 +1,7 @@
+id: amazon-vpc-lattice-capability
+name: Amazon VPC Lattice Capability
+description: Workflow-oriented capability for Amazon VPC Lattice
+tags:
+- AWS
+consumes:
+- ref: capabilities/shared/amazon-vpc-lattice-shared.yaml

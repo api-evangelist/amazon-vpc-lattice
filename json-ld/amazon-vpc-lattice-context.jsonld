@@ -1,0 +1,6 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "amazon_vpc_lattice": "https://aws.amazon.com/amazon-vpc-lattice/vocab#"
+  }
+}
