@@ -1,5 +1,0 @@
-id: amazon-vpc-lattice
-name: Amazon VPC Lattice
-description: Shared capability definition for Amazon VPC Lattice
-namespace: amazon-vpc-lattice
-operations: []
