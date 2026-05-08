@@ -33,6 +33,8 @@ apis:
   - Microservices
   - Service Networking
   properties:
+  - url: openapi/amazon-vpc-lattice-openapi.yml
+    type: OpenAPI
   - type: Documentation
     url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
   - type: APIReference
