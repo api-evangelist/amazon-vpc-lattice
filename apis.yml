@@ -1,11 +1,8 @@
 aid: amazon-vpc-lattice
 name: Amazon VPC Lattice
-description: >-
-  Amazon VPC Lattice is an application networking service that consistently
-  connects, monitors, and secures communications between your services,
-  helping you to improve productivity so that your developers can focus on
-  building features that matter to your business. It simplifies service-to-service
-  connectivity and security across VPCs and accounts.
+description: Amazon VPC Lattice is an application networking service that consistently connects, monitors, and secures communications
+  between your services, helping you to improve productivity so that your developers can focus on building features that matter
+  to your business. It simplifies service-to-service connectivity and security across VPCs and accounts.
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
@@ -13,19 +10,16 @@ tags:
 - Microservices
 - Service Mesh
 - Service Networking
-url: >-
-  https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/apis.yml
 created: '2026-03-16'
-modified: '2026-04-19'
+modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
 - aid: amazon-vpc-lattice:amazon-vpc-lattice-api
   name: Amazon VPC Lattice API
-  description: >-
-    The Amazon VPC Lattice API provides programmatic access to create and
-    manage service networks, services, target groups, listeners, rules, and
-    access log subscriptions. It enables service-to-service connectivity
-    with built-in authentication and authorization across VPCs and AWS accounts.
+  description: The Amazon VPC Lattice API provides programmatic access to create and manage service networks, services, target
+    groups, listeners, rules, and access log subscriptions. It enables service-to-service connectivity with built-in authentication
+    and authorization across VPCs and AWS accounts.
   humanURL: https://aws.amazon.com/vpc/lattice/
   baseURL: https://vpc-lattice.amazonaws.com
   tags:
@@ -45,6 +39,8 @@ apis:
     url: https://aws.amazon.com/vpc/lattice/pricing/
   - type: FAQ
     url: https://aws.amazon.com/vpc/lattice/faqs/
+  - type: NaftikoCapability
+    url: capabilities/amazon-vpc-lattice.yaml
 common:
 - type: Portal
   url: https://aws.amazon.com/
@@ -72,8 +68,6 @@ common:
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/rules/amazon-vpc-lattice-spectral-rules.yml
 - type: Vocabulary
   url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/vocabulary/amazon-vpc-lattice-vocabulary.yaml
-- type: NaftikoCapability
-  url: https://raw.githubusercontent.com/api-evangelist/amazon-vpc-lattice/refs/heads/main/capabilities/amazon-vpc-lattice-capability.yaml
 - type: Features
   data:
   - name: Automation
@@ -87,14 +81,14 @@ common:
 - type: Integrations
   url: https://aws.amazon.com/partners/
 integrations:
-  - name: Partner Programs
-  - name: Resources
-  - name: Success Stories
-  - name: Work with an AWS Partner
-  - name: AWS Marketplace
-  - name: AWS Partner Central
-  - name: Partner Paths
-  - name: co-sell with AWS
+- name: Partner Programs
+- name: Resources
+- name: Success Stories
+- name: Work with an AWS Partner
+- name: AWS Marketplace
+- name: AWS Partner Central
+- name: Partner Paths
+- name: co-sell with AWS
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

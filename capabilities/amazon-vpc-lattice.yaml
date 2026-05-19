@@ -1,0 +1,3101 @@
+naftiko: 1.0.0-alpha2
+info:
+  label: Amazon VPC Lattice
+  description: 'Amazon VPC Lattice. 73 operations. Lead operation: BatchUpdateRule. Self-contained Naftiko capability covering
+    one Amazon Vpc Lattice business surface.'
+  tags:
+  - Amazon Vpc Lattice
+  - Amazon VPC Lattice
+  created: '2026-05-19'
+  modified: '2026-05-19'
+binds:
+- namespace: env
+  keys:
+    AMAZON_VPC_LATTICE_API_KEY: AMAZON_VPC_LATTICE_API_KEY
+capability:
+  consumes:
+  - type: http
+    namespace: amazon-vpc-lattice
+    baseUri: https://vpc-lattice.amazonaws.com
+    description: Amazon VPC Lattice business capability. Self-contained, no shared references.
+    resources:
+    - name: BatchUpdateRule
+      path: /BatchUpdateRule
+      operations:
+      - name: batchupdaterule
+        method: POST
+        description: BatchUpdateRule
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateAccessLogSubscription
+      path: /CreateAccessLogSubscription
+      operations:
+      - name: createaccesslogsubscription
+        method: POST
+        description: CreateAccessLogSubscription
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateListener
+      path: /CreateListener
+      operations:
+      - name: createlistener
+        method: POST
+        description: CreateListener
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateResourceConfiguration
+      path: /CreateResourceConfiguration
+      operations:
+      - name: createresourceconfiguration
+        method: POST
+        description: CreateResourceConfiguration
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateResourceGateway
+      path: /CreateResourceGateway
+      operations:
+      - name: createresourcegateway
+        method: POST
+        description: CreateResourceGateway
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateRule
+      path: /CreateRule
+      operations:
+      - name: createrule
+        method: POST
+        description: CreateRule
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateService
+      path: /CreateService
+      operations:
+      - name: createservice
+        method: POST
+        description: CreateService
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateServiceNetwork
+      path: /CreateServiceNetwork
+      operations:
+      - name: createservicenetwork
+        method: POST
+        description: CreateServiceNetwork
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateServiceNetworkResourceAssociation
+      path: /CreateServiceNetworkResourceAssociation
+      operations:
+      - name: createservicenetworkresourceassociation
+        method: POST
+        description: CreateServiceNetworkResourceAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateServiceNetworkServiceAssociation
+      path: /CreateServiceNetworkServiceAssociation
+      operations:
+      - name: createservicenetworkserviceassociation
+        method: POST
+        description: CreateServiceNetworkServiceAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateServiceNetworkVpcAssociation
+      path: /CreateServiceNetworkVpcAssociation
+      operations:
+      - name: createservicenetworkvpcassociation
+        method: POST
+        description: CreateServiceNetworkVpcAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: CreateTargetGroup
+      path: /CreateTargetGroup
+      operations:
+      - name: createtargetgroup
+        method: POST
+        description: CreateTargetGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteAccessLogSubscription
+      path: /DeleteAccessLogSubscription
+      operations:
+      - name: deleteaccesslogsubscription
+        method: POST
+        description: DeleteAccessLogSubscription
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteAuthPolicy
+      path: /DeleteAuthPolicy
+      operations:
+      - name: deleteauthpolicy
+        method: POST
+        description: DeleteAuthPolicy
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteDomainVerification
+      path: /DeleteDomainVerification
+      operations:
+      - name: deletedomainverification
+        method: POST
+        description: DeleteDomainVerification
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteListener
+      path: /DeleteListener
+      operations:
+      - name: deletelistener
+        method: POST
+        description: DeleteListener
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteResourceConfiguration
+      path: /DeleteResourceConfiguration
+      operations:
+      - name: deleteresourceconfiguration
+        method: POST
+        description: DeleteResourceConfiguration
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteResourceEndpointAssociation
+      path: /DeleteResourceEndpointAssociation
+      operations:
+      - name: deleteresourceendpointassociation
+        method: POST
+        description: DeleteResourceEndpointAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteResourceGateway
+      path: /DeleteResourceGateway
+      operations:
+      - name: deleteresourcegateway
+        method: POST
+        description: DeleteResourceGateway
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteResourcePolicy
+      path: /DeleteResourcePolicy
+      operations:
+      - name: deleteresourcepolicy
+        method: POST
+        description: DeleteResourcePolicy
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteRule
+      path: /DeleteRule
+      operations:
+      - name: deleterule
+        method: POST
+        description: DeleteRule
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteService
+      path: /DeleteService
+      operations:
+      - name: deleteservice
+        method: POST
+        description: DeleteService
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteServiceNetwork
+      path: /DeleteServiceNetwork
+      operations:
+      - name: deleteservicenetwork
+        method: POST
+        description: DeleteServiceNetwork
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteServiceNetworkResourceAssociation
+      path: /DeleteServiceNetworkResourceAssociation
+      operations:
+      - name: deleteservicenetworkresourceassociation
+        method: POST
+        description: DeleteServiceNetworkResourceAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteServiceNetworkServiceAssociation
+      path: /DeleteServiceNetworkServiceAssociation
+      operations:
+      - name: deleteservicenetworkserviceassociation
+        method: POST
+        description: DeleteServiceNetworkServiceAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteServiceNetworkVpcAssociation
+      path: /DeleteServiceNetworkVpcAssociation
+      operations:
+      - name: deleteservicenetworkvpcassociation
+        method: POST
+        description: DeleteServiceNetworkVpcAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeleteTargetGroup
+      path: /DeleteTargetGroup
+      operations:
+      - name: deletetargetgroup
+        method: POST
+        description: DeleteTargetGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: DeregisterTargets
+      path: /DeregisterTargets
+      operations:
+      - name: deregistertargets
+        method: POST
+        description: DeregisterTargets
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetAccessLogSubscription
+      path: /GetAccessLogSubscription
+      operations:
+      - name: getaccesslogsubscription
+        method: POST
+        description: GetAccessLogSubscription
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetAuthPolicy
+      path: /GetAuthPolicy
+      operations:
+      - name: getauthpolicy
+        method: POST
+        description: GetAuthPolicy
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetDomainVerification
+      path: /GetDomainVerification
+      operations:
+      - name: getdomainverification
+        method: POST
+        description: GetDomainVerification
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetListener
+      path: /GetListener
+      operations:
+      - name: getlistener
+        method: POST
+        description: GetListener
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetResourceConfiguration
+      path: /GetResourceConfiguration
+      operations:
+      - name: getresourceconfiguration
+        method: POST
+        description: GetResourceConfiguration
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetResourceGateway
+      path: /GetResourceGateway
+      operations:
+      - name: getresourcegateway
+        method: POST
+        description: GetResourceGateway
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetResourcePolicy
+      path: /GetResourcePolicy
+      operations:
+      - name: getresourcepolicy
+        method: POST
+        description: GetResourcePolicy
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetRule
+      path: /GetRule
+      operations:
+      - name: getrule
+        method: POST
+        description: GetRule
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetService
+      path: /GetService
+      operations:
+      - name: getservice
+        method: POST
+        description: GetService
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetServiceNetwork
+      path: /GetServiceNetwork
+      operations:
+      - name: getservicenetwork
+        method: POST
+        description: GetServiceNetwork
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetServiceNetworkResourceAssociation
+      path: /GetServiceNetworkResourceAssociation
+      operations:
+      - name: getservicenetworkresourceassociation
+        method: POST
+        description: GetServiceNetworkResourceAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetServiceNetworkServiceAssociation
+      path: /GetServiceNetworkServiceAssociation
+      operations:
+      - name: getservicenetworkserviceassociation
+        method: POST
+        description: GetServiceNetworkServiceAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetServiceNetworkVpcAssociation
+      path: /GetServiceNetworkVpcAssociation
+      operations:
+      - name: getservicenetworkvpcassociation
+        method: POST
+        description: GetServiceNetworkVpcAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: GetTargetGroup
+      path: /GetTargetGroup
+      operations:
+      - name: gettargetgroup
+        method: POST
+        description: GetTargetGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListAccessLogSubscriptions
+      path: /ListAccessLogSubscriptions
+      operations:
+      - name: listaccesslogsubscriptions
+        method: POST
+        description: ListAccessLogSubscriptions
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListDomainVerifications
+      path: /ListDomainVerifications
+      operations:
+      - name: listdomainverifications
+        method: POST
+        description: ListDomainVerifications
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListListeners
+      path: /ListListeners
+      operations:
+      - name: listlisteners
+        method: POST
+        description: ListListeners
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListResourceConfigurations
+      path: /ListResourceConfigurations
+      operations:
+      - name: listresourceconfigurations
+        method: POST
+        description: ListResourceConfigurations
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListResourceEndpointAssociations
+      path: /ListResourceEndpointAssociations
+      operations:
+      - name: listresourceendpointassociations
+        method: POST
+        description: ListResourceEndpointAssociations
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListResourceGateways
+      path: /ListResourceGateways
+      operations:
+      - name: listresourcegateways
+        method: POST
+        description: ListResourceGateways
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListRules
+      path: /ListRules
+      operations:
+      - name: listrules
+        method: POST
+        description: ListRules
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListServiceNetworkResourceAssociations
+      path: /ListServiceNetworkResourceAssociations
+      operations:
+      - name: listservicenetworkresourceassociations
+        method: POST
+        description: ListServiceNetworkResourceAssociations
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListServiceNetworkServiceAssociations
+      path: /ListServiceNetworkServiceAssociations
+      operations:
+      - name: listservicenetworkserviceassociations
+        method: POST
+        description: ListServiceNetworkServiceAssociations
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListServiceNetworkVpcAssociations
+      path: /ListServiceNetworkVpcAssociations
+      operations:
+      - name: listservicenetworkvpcassociations
+        method: POST
+        description: ListServiceNetworkVpcAssociations
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListServiceNetworkVpcEndpointAssociations
+      path: /ListServiceNetworkVpcEndpointAssociations
+      operations:
+      - name: listservicenetworkvpcendpointassociations
+        method: POST
+        description: ListServiceNetworkVpcEndpointAssociations
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListServiceNetworks
+      path: /ListServiceNetworks
+      operations:
+      - name: listservicenetworks
+        method: POST
+        description: ListServiceNetworks
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListServices
+      path: /ListServices
+      operations:
+      - name: listservices
+        method: POST
+        description: ListServices
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListTagsForResource
+      path: /ListTagsForResource
+      operations:
+      - name: listtagsforresource
+        method: POST
+        description: ListTagsForResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListTargetGroups
+      path: /ListTargetGroups
+      operations:
+      - name: listtargetgroups
+        method: POST
+        description: ListTargetGroups
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: ListTargets
+      path: /ListTargets
+      operations:
+      - name: listtargets
+        method: POST
+        description: ListTargets
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: PutAuthPolicy
+      path: /PutAuthPolicy
+      operations:
+      - name: putauthpolicy
+        method: POST
+        description: PutAuthPolicy
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: PutResourcePolicy
+      path: /PutResourcePolicy
+      operations:
+      - name: putresourcepolicy
+        method: POST
+        description: PutResourcePolicy
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: RegisterTargets
+      path: /RegisterTargets
+      operations:
+      - name: registertargets
+        method: POST
+        description: RegisterTargets
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: StartDomainVerification
+      path: /StartDomainVerification
+      operations:
+      - name: startdomainverification
+        method: POST
+        description: StartDomainVerification
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: TagResource
+      path: /TagResource
+      operations:
+      - name: tagresource
+        method: POST
+        description: TagResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UntagResource
+      path: /UntagResource
+      operations:
+      - name: untagresource
+        method: POST
+        description: UntagResource
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateAccessLogSubscription
+      path: /UpdateAccessLogSubscription
+      operations:
+      - name: updateaccesslogsubscription
+        method: POST
+        description: UpdateAccessLogSubscription
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateListener
+      path: /UpdateListener
+      operations:
+      - name: updatelistener
+        method: POST
+        description: UpdateListener
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateResourceConfiguration
+      path: /UpdateResourceConfiguration
+      operations:
+      - name: updateresourceconfiguration
+        method: POST
+        description: UpdateResourceConfiguration
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateResourceGateway
+      path: /UpdateResourceGateway
+      operations:
+      - name: updateresourcegateway
+        method: POST
+        description: UpdateResourceGateway
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateRule
+      path: /UpdateRule
+      operations:
+      - name: updaterule
+        method: POST
+        description: UpdateRule
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateService
+      path: /UpdateService
+      operations:
+      - name: updateservice
+        method: POST
+        description: UpdateService
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateServiceNetwork
+      path: /UpdateServiceNetwork
+      operations:
+      - name: updateservicenetwork
+        method: POST
+        description: UpdateServiceNetwork
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateServiceNetworkVpcAssociation
+      path: /UpdateServiceNetworkVpcAssociation
+      operations:
+      - name: updateservicenetworkvpcassociation
+        method: POST
+        description: UpdateServiceNetworkVpcAssociation
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+    - name: UpdateTargetGroup
+      path: /UpdateTargetGroup
+      operations:
+      - name: updatetargetgroup
+        method: POST
+        description: UpdateTargetGroup
+        outputRawFormat: json
+        outputParameters:
+        - name: result
+          type: object
+          value: $.
+        inputParameters:
+        - name: body
+          in: body
+          type: object
+          description: Request body (JSON).
+          required: false
+  exposes:
+  - type: rest
+    namespace: amazon-vpc-lattice-rest
+    port: 8080
+    description: REST adapter for Amazon VPC Lattice. One Spectral-compliant resource per consumed operation, prefixed with
+      /v1.
+    resources:
+    - path: /v1/batchupdaterule
+      name: batchupdaterule
+      description: REST surface for BatchUpdateRule.
+      operations:
+      - method: POST
+        name: batchupdaterule
+        description: BatchUpdateRule
+        call: amazon-vpc-lattice.batchupdaterule
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createaccesslogsubscription
+      name: createaccesslogsubscription
+      description: REST surface for CreateAccessLogSubscription.
+      operations:
+      - method: POST
+        name: createaccesslogsubscription
+        description: CreateAccessLogSubscription
+        call: amazon-vpc-lattice.createaccesslogsubscription
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createlistener
+      name: createlistener
+      description: REST surface for CreateListener.
+      operations:
+      - method: POST
+        name: createlistener
+        description: CreateListener
+        call: amazon-vpc-lattice.createlistener
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createresourceconfiguration
+      name: createresourceconfiguration
+      description: REST surface for CreateResourceConfiguration.
+      operations:
+      - method: POST
+        name: createresourceconfiguration
+        description: CreateResourceConfiguration
+        call: amazon-vpc-lattice.createresourceconfiguration
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createresourcegateway
+      name: createresourcegateway
+      description: REST surface for CreateResourceGateway.
+      operations:
+      - method: POST
+        name: createresourcegateway
+        description: CreateResourceGateway
+        call: amazon-vpc-lattice.createresourcegateway
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createrule
+      name: createrule
+      description: REST surface for CreateRule.
+      operations:
+      - method: POST
+        name: createrule
+        description: CreateRule
+        call: amazon-vpc-lattice.createrule
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createservice
+      name: createservice
+      description: REST surface for CreateService.
+      operations:
+      - method: POST
+        name: createservice
+        description: CreateService
+        call: amazon-vpc-lattice.createservice
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createservicenetwork
+      name: createservicenetwork
+      description: REST surface for CreateServiceNetwork.
+      operations:
+      - method: POST
+        name: createservicenetwork
+        description: CreateServiceNetwork
+        call: amazon-vpc-lattice.createservicenetwork
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createservicenetworkresourceassociation
+      name: createservicenetworkresourceassociation
+      description: REST surface for CreateServiceNetworkResourceAssociation.
+      operations:
+      - method: POST
+        name: createservicenetworkresourceassociation
+        description: CreateServiceNetworkResourceAssociation
+        call: amazon-vpc-lattice.createservicenetworkresourceassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createservicenetworkserviceassociation
+      name: createservicenetworkserviceassociation
+      description: REST surface for CreateServiceNetworkServiceAssociation.
+      operations:
+      - method: POST
+        name: createservicenetworkserviceassociation
+        description: CreateServiceNetworkServiceAssociation
+        call: amazon-vpc-lattice.createservicenetworkserviceassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createservicenetworkvpcassociation
+      name: createservicenetworkvpcassociation
+      description: REST surface for CreateServiceNetworkVpcAssociation.
+      operations:
+      - method: POST
+        name: createservicenetworkvpcassociation
+        description: CreateServiceNetworkVpcAssociation
+        call: amazon-vpc-lattice.createservicenetworkvpcassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/createtargetgroup
+      name: createtargetgroup
+      description: REST surface for CreateTargetGroup.
+      operations:
+      - method: POST
+        name: createtargetgroup
+        description: CreateTargetGroup
+        call: amazon-vpc-lattice.createtargetgroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteaccesslogsubscription
+      name: deleteaccesslogsubscription
+      description: REST surface for DeleteAccessLogSubscription.
+      operations:
+      - method: POST
+        name: deleteaccesslogsubscription
+        description: DeleteAccessLogSubscription
+        call: amazon-vpc-lattice.deleteaccesslogsubscription
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteauthpolicy
+      name: deleteauthpolicy
+      description: REST surface for DeleteAuthPolicy.
+      operations:
+      - method: POST
+        name: deleteauthpolicy
+        description: DeleteAuthPolicy
+        call: amazon-vpc-lattice.deleteauthpolicy
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletedomainverification
+      name: deletedomainverification
+      description: REST surface for DeleteDomainVerification.
+      operations:
+      - method: POST
+        name: deletedomainverification
+        description: DeleteDomainVerification
+        call: amazon-vpc-lattice.deletedomainverification
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletelistener
+      name: deletelistener
+      description: REST surface for DeleteListener.
+      operations:
+      - method: POST
+        name: deletelistener
+        description: DeleteListener
+        call: amazon-vpc-lattice.deletelistener
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteresourceconfiguration
+      name: deleteresourceconfiguration
+      description: REST surface for DeleteResourceConfiguration.
+      operations:
+      - method: POST
+        name: deleteresourceconfiguration
+        description: DeleteResourceConfiguration
+        call: amazon-vpc-lattice.deleteresourceconfiguration
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteresourceendpointassociation
+      name: deleteresourceendpointassociation
+      description: REST surface for DeleteResourceEndpointAssociation.
+      operations:
+      - method: POST
+        name: deleteresourceendpointassociation
+        description: DeleteResourceEndpointAssociation
+        call: amazon-vpc-lattice.deleteresourceendpointassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteresourcegateway
+      name: deleteresourcegateway
+      description: REST surface for DeleteResourceGateway.
+      operations:
+      - method: POST
+        name: deleteresourcegateway
+        description: DeleteResourceGateway
+        call: amazon-vpc-lattice.deleteresourcegateway
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteresourcepolicy
+      name: deleteresourcepolicy
+      description: REST surface for DeleteResourcePolicy.
+      operations:
+      - method: POST
+        name: deleteresourcepolicy
+        description: DeleteResourcePolicy
+        call: amazon-vpc-lattice.deleteresourcepolicy
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleterule
+      name: deleterule
+      description: REST surface for DeleteRule.
+      operations:
+      - method: POST
+        name: deleterule
+        description: DeleteRule
+        call: amazon-vpc-lattice.deleterule
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteservice
+      name: deleteservice
+      description: REST surface for DeleteService.
+      operations:
+      - method: POST
+        name: deleteservice
+        description: DeleteService
+        call: amazon-vpc-lattice.deleteservice
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteservicenetwork
+      name: deleteservicenetwork
+      description: REST surface for DeleteServiceNetwork.
+      operations:
+      - method: POST
+        name: deleteservicenetwork
+        description: DeleteServiceNetwork
+        call: amazon-vpc-lattice.deleteservicenetwork
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteservicenetworkresourceassociation
+      name: deleteservicenetworkresourceassociation
+      description: REST surface for DeleteServiceNetworkResourceAssociation.
+      operations:
+      - method: POST
+        name: deleteservicenetworkresourceassociation
+        description: DeleteServiceNetworkResourceAssociation
+        call: amazon-vpc-lattice.deleteservicenetworkresourceassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteservicenetworkserviceassociation
+      name: deleteservicenetworkserviceassociation
+      description: REST surface for DeleteServiceNetworkServiceAssociation.
+      operations:
+      - method: POST
+        name: deleteservicenetworkserviceassociation
+        description: DeleteServiceNetworkServiceAssociation
+        call: amazon-vpc-lattice.deleteservicenetworkserviceassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deleteservicenetworkvpcassociation
+      name: deleteservicenetworkvpcassociation
+      description: REST surface for DeleteServiceNetworkVpcAssociation.
+      operations:
+      - method: POST
+        name: deleteservicenetworkvpcassociation
+        description: DeleteServiceNetworkVpcAssociation
+        call: amazon-vpc-lattice.deleteservicenetworkvpcassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deletetargetgroup
+      name: deletetargetgroup
+      description: REST surface for DeleteTargetGroup.
+      operations:
+      - method: POST
+        name: deletetargetgroup
+        description: DeleteTargetGroup
+        call: amazon-vpc-lattice.deletetargetgroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/deregistertargets
+      name: deregistertargets
+      description: REST surface for DeregisterTargets.
+      operations:
+      - method: POST
+        name: deregistertargets
+        description: DeregisterTargets
+        call: amazon-vpc-lattice.deregistertargets
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getaccesslogsubscription
+      name: getaccesslogsubscription
+      description: REST surface for GetAccessLogSubscription.
+      operations:
+      - method: POST
+        name: getaccesslogsubscription
+        description: GetAccessLogSubscription
+        call: amazon-vpc-lattice.getaccesslogsubscription
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getauthpolicy
+      name: getauthpolicy
+      description: REST surface for GetAuthPolicy.
+      operations:
+      - method: POST
+        name: getauthpolicy
+        description: GetAuthPolicy
+        call: amazon-vpc-lattice.getauthpolicy
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getdomainverification
+      name: getdomainverification
+      description: REST surface for GetDomainVerification.
+      operations:
+      - method: POST
+        name: getdomainverification
+        description: GetDomainVerification
+        call: amazon-vpc-lattice.getdomainverification
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getlistener
+      name: getlistener
+      description: REST surface for GetListener.
+      operations:
+      - method: POST
+        name: getlistener
+        description: GetListener
+        call: amazon-vpc-lattice.getlistener
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getresourceconfiguration
+      name: getresourceconfiguration
+      description: REST surface for GetResourceConfiguration.
+      operations:
+      - method: POST
+        name: getresourceconfiguration
+        description: GetResourceConfiguration
+        call: amazon-vpc-lattice.getresourceconfiguration
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getresourcegateway
+      name: getresourcegateway
+      description: REST surface for GetResourceGateway.
+      operations:
+      - method: POST
+        name: getresourcegateway
+        description: GetResourceGateway
+        call: amazon-vpc-lattice.getresourcegateway
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getresourcepolicy
+      name: getresourcepolicy
+      description: REST surface for GetResourcePolicy.
+      operations:
+      - method: POST
+        name: getresourcepolicy
+        description: GetResourcePolicy
+        call: amazon-vpc-lattice.getresourcepolicy
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getrule
+      name: getrule
+      description: REST surface for GetRule.
+      operations:
+      - method: POST
+        name: getrule
+        description: GetRule
+        call: amazon-vpc-lattice.getrule
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getservice
+      name: getservice
+      description: REST surface for GetService.
+      operations:
+      - method: POST
+        name: getservice
+        description: GetService
+        call: amazon-vpc-lattice.getservice
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getservicenetwork
+      name: getservicenetwork
+      description: REST surface for GetServiceNetwork.
+      operations:
+      - method: POST
+        name: getservicenetwork
+        description: GetServiceNetwork
+        call: amazon-vpc-lattice.getservicenetwork
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getservicenetworkresourceassociation
+      name: getservicenetworkresourceassociation
+      description: REST surface for GetServiceNetworkResourceAssociation.
+      operations:
+      - method: POST
+        name: getservicenetworkresourceassociation
+        description: GetServiceNetworkResourceAssociation
+        call: amazon-vpc-lattice.getservicenetworkresourceassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getservicenetworkserviceassociation
+      name: getservicenetworkserviceassociation
+      description: REST surface for GetServiceNetworkServiceAssociation.
+      operations:
+      - method: POST
+        name: getservicenetworkserviceassociation
+        description: GetServiceNetworkServiceAssociation
+        call: amazon-vpc-lattice.getservicenetworkserviceassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/getservicenetworkvpcassociation
+      name: getservicenetworkvpcassociation
+      description: REST surface for GetServiceNetworkVpcAssociation.
+      operations:
+      - method: POST
+        name: getservicenetworkvpcassociation
+        description: GetServiceNetworkVpcAssociation
+        call: amazon-vpc-lattice.getservicenetworkvpcassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/gettargetgroup
+      name: gettargetgroup
+      description: REST surface for GetTargetGroup.
+      operations:
+      - method: POST
+        name: gettargetgroup
+        description: GetTargetGroup
+        call: amazon-vpc-lattice.gettargetgroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listaccesslogsubscriptions
+      name: listaccesslogsubscriptions
+      description: REST surface for ListAccessLogSubscriptions.
+      operations:
+      - method: POST
+        name: listaccesslogsubscriptions
+        description: ListAccessLogSubscriptions
+        call: amazon-vpc-lattice.listaccesslogsubscriptions
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listdomainverifications
+      name: listdomainverifications
+      description: REST surface for ListDomainVerifications.
+      operations:
+      - method: POST
+        name: listdomainverifications
+        description: ListDomainVerifications
+        call: amazon-vpc-lattice.listdomainverifications
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listlisteners
+      name: listlisteners
+      description: REST surface for ListListeners.
+      operations:
+      - method: POST
+        name: listlisteners
+        description: ListListeners
+        call: amazon-vpc-lattice.listlisteners
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listresourceconfigurations
+      name: listresourceconfigurations
+      description: REST surface for ListResourceConfigurations.
+      operations:
+      - method: POST
+        name: listresourceconfigurations
+        description: ListResourceConfigurations
+        call: amazon-vpc-lattice.listresourceconfigurations
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listresourceendpointassociations
+      name: listresourceendpointassociations
+      description: REST surface for ListResourceEndpointAssociations.
+      operations:
+      - method: POST
+        name: listresourceendpointassociations
+        description: ListResourceEndpointAssociations
+        call: amazon-vpc-lattice.listresourceendpointassociations
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listresourcegateways
+      name: listresourcegateways
+      description: REST surface for ListResourceGateways.
+      operations:
+      - method: POST
+        name: listresourcegateways
+        description: ListResourceGateways
+        call: amazon-vpc-lattice.listresourcegateways
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listrules
+      name: listrules
+      description: REST surface for ListRules.
+      operations:
+      - method: POST
+        name: listrules
+        description: ListRules
+        call: amazon-vpc-lattice.listrules
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listservicenetworkresourceassociations
+      name: listservicenetworkresourceassociations
+      description: REST surface for ListServiceNetworkResourceAssociations.
+      operations:
+      - method: POST
+        name: listservicenetworkresourceassociations
+        description: ListServiceNetworkResourceAssociations
+        call: amazon-vpc-lattice.listservicenetworkresourceassociations
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listservicenetworkserviceassociations
+      name: listservicenetworkserviceassociations
+      description: REST surface for ListServiceNetworkServiceAssociations.
+      operations:
+      - method: POST
+        name: listservicenetworkserviceassociations
+        description: ListServiceNetworkServiceAssociations
+        call: amazon-vpc-lattice.listservicenetworkserviceassociations
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listservicenetworkvpcassociations
+      name: listservicenetworkvpcassociations
+      description: REST surface for ListServiceNetworkVpcAssociations.
+      operations:
+      - method: POST
+        name: listservicenetworkvpcassociations
+        description: ListServiceNetworkVpcAssociations
+        call: amazon-vpc-lattice.listservicenetworkvpcassociations
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listservicenetworkvpcendpointassociations
+      name: listservicenetworkvpcendpointassociations
+      description: REST surface for ListServiceNetworkVpcEndpointAssociations.
+      operations:
+      - method: POST
+        name: listservicenetworkvpcendpointassociations
+        description: ListServiceNetworkVpcEndpointAssociations
+        call: amazon-vpc-lattice.listservicenetworkvpcendpointassociations
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listservicenetworks
+      name: listservicenetworks
+      description: REST surface for ListServiceNetworks.
+      operations:
+      - method: POST
+        name: listservicenetworks
+        description: ListServiceNetworks
+        call: amazon-vpc-lattice.listservicenetworks
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listservices
+      name: listservices
+      description: REST surface for ListServices.
+      operations:
+      - method: POST
+        name: listservices
+        description: ListServices
+        call: amazon-vpc-lattice.listservices
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listtagsforresource
+      name: listtagsforresource
+      description: REST surface for ListTagsForResource.
+      operations:
+      - method: POST
+        name: listtagsforresource
+        description: ListTagsForResource
+        call: amazon-vpc-lattice.listtagsforresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listtargetgroups
+      name: listtargetgroups
+      description: REST surface for ListTargetGroups.
+      operations:
+      - method: POST
+        name: listtargetgroups
+        description: ListTargetGroups
+        call: amazon-vpc-lattice.listtargetgroups
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/listtargets
+      name: listtargets
+      description: REST surface for ListTargets.
+      operations:
+      - method: POST
+        name: listtargets
+        description: ListTargets
+        call: amazon-vpc-lattice.listtargets
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/putauthpolicy
+      name: putauthpolicy
+      description: REST surface for PutAuthPolicy.
+      operations:
+      - method: POST
+        name: putauthpolicy
+        description: PutAuthPolicy
+        call: amazon-vpc-lattice.putauthpolicy
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/putresourcepolicy
+      name: putresourcepolicy
+      description: REST surface for PutResourcePolicy.
+      operations:
+      - method: POST
+        name: putresourcepolicy
+        description: PutResourcePolicy
+        call: amazon-vpc-lattice.putresourcepolicy
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/registertargets
+      name: registertargets
+      description: REST surface for RegisterTargets.
+      operations:
+      - method: POST
+        name: registertargets
+        description: RegisterTargets
+        call: amazon-vpc-lattice.registertargets
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/startdomainverification
+      name: startdomainverification
+      description: REST surface for StartDomainVerification.
+      operations:
+      - method: POST
+        name: startdomainverification
+        description: StartDomainVerification
+        call: amazon-vpc-lattice.startdomainverification
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/tagresource
+      name: tagresource
+      description: REST surface for TagResource.
+      operations:
+      - method: POST
+        name: tagresource
+        description: TagResource
+        call: amazon-vpc-lattice.tagresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/untagresource
+      name: untagresource
+      description: REST surface for UntagResource.
+      operations:
+      - method: POST
+        name: untagresource
+        description: UntagResource
+        call: amazon-vpc-lattice.untagresource
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateaccesslogsubscription
+      name: updateaccesslogsubscription
+      description: REST surface for UpdateAccessLogSubscription.
+      operations:
+      - method: POST
+        name: updateaccesslogsubscription
+        description: UpdateAccessLogSubscription
+        call: amazon-vpc-lattice.updateaccesslogsubscription
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatelistener
+      name: updatelistener
+      description: REST surface for UpdateListener.
+      operations:
+      - method: POST
+        name: updatelistener
+        description: UpdateListener
+        call: amazon-vpc-lattice.updatelistener
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateresourceconfiguration
+      name: updateresourceconfiguration
+      description: REST surface for UpdateResourceConfiguration.
+      operations:
+      - method: POST
+        name: updateresourceconfiguration
+        description: UpdateResourceConfiguration
+        call: amazon-vpc-lattice.updateresourceconfiguration
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateresourcegateway
+      name: updateresourcegateway
+      description: REST surface for UpdateResourceGateway.
+      operations:
+      - method: POST
+        name: updateresourcegateway
+        description: UpdateResourceGateway
+        call: amazon-vpc-lattice.updateresourcegateway
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updaterule
+      name: updaterule
+      description: REST surface for UpdateRule.
+      operations:
+      - method: POST
+        name: updaterule
+        description: UpdateRule
+        call: amazon-vpc-lattice.updaterule
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateservice
+      name: updateservice
+      description: REST surface for UpdateService.
+      operations:
+      - method: POST
+        name: updateservice
+        description: UpdateService
+        call: amazon-vpc-lattice.updateservice
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateservicenetwork
+      name: updateservicenetwork
+      description: REST surface for UpdateServiceNetwork.
+      operations:
+      - method: POST
+        name: updateservicenetwork
+        description: UpdateServiceNetwork
+        call: amazon-vpc-lattice.updateservicenetwork
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updateservicenetworkvpcassociation
+      name: updateservicenetworkvpcassociation
+      description: REST surface for UpdateServiceNetworkVpcAssociation.
+      operations:
+      - method: POST
+        name: updateservicenetworkvpcassociation
+        description: UpdateServiceNetworkVpcAssociation
+        call: amazon-vpc-lattice.updateservicenetworkvpcassociation
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+    - path: /v1/updatetargetgroup
+      name: updatetargetgroup
+      description: REST surface for UpdateTargetGroup.
+      operations:
+      - method: POST
+        name: updatetargetgroup
+        description: UpdateTargetGroup
+        call: amazon-vpc-lattice.updatetargetgroup
+        with:
+          body: rest.body
+        outputParameters:
+        - type: object
+          mapping: $.
+  - type: mcp
+    namespace: amazon-vpc-lattice-mcp
+    port: 9090
+    transport: http
+    description: MCP adapter for Amazon VPC Lattice. One tool per consumed operation, routed inline through this capability's
+      consumes block.
+    tools:
+    - name: batchupdaterule
+      description: BatchUpdateRule
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.batchupdaterule
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createaccesslogsubscription
+      description: CreateAccessLogSubscription
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createaccesslogsubscription
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createlistener
+      description: CreateListener
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createlistener
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createresourceconfiguration
+      description: CreateResourceConfiguration
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createresourceconfiguration
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createresourcegateway
+      description: CreateResourceGateway
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createresourcegateway
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createrule
+      description: CreateRule
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createrule
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createservice
+      description: CreateService
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createservice
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createservicenetwork
+      description: CreateServiceNetwork
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createservicenetwork
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createservicenetworkresourceassociation
+      description: CreateServiceNetworkResourceAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createservicenetworkresourceassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createservicenetworkserviceassociation
+      description: CreateServiceNetworkServiceAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createservicenetworkserviceassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createservicenetworkvpcassociation
+      description: CreateServiceNetworkVpcAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createservicenetworkvpcassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: createtargetgroup
+      description: CreateTargetGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.createtargetgroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteaccesslogsubscription
+      description: DeleteAccessLogSubscription
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteaccesslogsubscription
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteauthpolicy
+      description: DeleteAuthPolicy
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteauthpolicy
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletedomainverification
+      description: DeleteDomainVerification
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deletedomainverification
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletelistener
+      description: DeleteListener
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deletelistener
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteresourceconfiguration
+      description: DeleteResourceConfiguration
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteresourceconfiguration
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteresourceendpointassociation
+      description: DeleteResourceEndpointAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteresourceendpointassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteresourcegateway
+      description: DeleteResourceGateway
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteresourcegateway
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteresourcepolicy
+      description: DeleteResourcePolicy
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteresourcepolicy
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleterule
+      description: DeleteRule
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleterule
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteservice
+      description: DeleteService
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteservice
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteservicenetwork
+      description: DeleteServiceNetwork
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteservicenetwork
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteservicenetworkresourceassociation
+      description: DeleteServiceNetworkResourceAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteservicenetworkresourceassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteservicenetworkserviceassociation
+      description: DeleteServiceNetworkServiceAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteservicenetworkserviceassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deleteservicenetworkvpcassociation
+      description: DeleteServiceNetworkVpcAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deleteservicenetworkvpcassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deletetargetgroup
+      description: DeleteTargetGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deletetargetgroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: deregistertargets
+      description: DeregisterTargets
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.deregistertargets
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getaccesslogsubscription
+      description: GetAccessLogSubscription
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getaccesslogsubscription
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getauthpolicy
+      description: GetAuthPolicy
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getauthpolicy
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getdomainverification
+      description: GetDomainVerification
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getdomainverification
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getlistener
+      description: GetListener
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getlistener
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getresourceconfiguration
+      description: GetResourceConfiguration
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getresourceconfiguration
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getresourcegateway
+      description: GetResourceGateway
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getresourcegateway
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getresourcepolicy
+      description: GetResourcePolicy
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getresourcepolicy
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getrule
+      description: GetRule
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getrule
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getservice
+      description: GetService
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getservice
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getservicenetwork
+      description: GetServiceNetwork
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getservicenetwork
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getservicenetworkresourceassociation
+      description: GetServiceNetworkResourceAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getservicenetworkresourceassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getservicenetworkserviceassociation
+      description: GetServiceNetworkServiceAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getservicenetworkserviceassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: getservicenetworkvpcassociation
+      description: GetServiceNetworkVpcAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.getservicenetworkvpcassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: gettargetgroup
+      description: GetTargetGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.gettargetgroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listaccesslogsubscriptions
+      description: ListAccessLogSubscriptions
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listaccesslogsubscriptions
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listdomainverifications
+      description: ListDomainVerifications
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listdomainverifications
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listlisteners
+      description: ListListeners
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listlisteners
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listresourceconfigurations
+      description: ListResourceConfigurations
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listresourceconfigurations
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listresourceendpointassociations
+      description: ListResourceEndpointAssociations
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listresourceendpointassociations
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listresourcegateways
+      description: ListResourceGateways
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listresourcegateways
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listrules
+      description: ListRules
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listrules
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listservicenetworkresourceassociations
+      description: ListServiceNetworkResourceAssociations
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listservicenetworkresourceassociations
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listservicenetworkserviceassociations
+      description: ListServiceNetworkServiceAssociations
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listservicenetworkserviceassociations
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listservicenetworkvpcassociations
+      description: ListServiceNetworkVpcAssociations
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listservicenetworkvpcassociations
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listservicenetworkvpcendpointassociations
+      description: ListServiceNetworkVpcEndpointAssociations
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listservicenetworkvpcendpointassociations
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listservicenetworks
+      description: ListServiceNetworks
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listservicenetworks
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listservices
+      description: ListServices
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listservices
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listtagsforresource
+      description: ListTagsForResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listtagsforresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listtargetgroups
+      description: ListTargetGroups
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listtargetgroups
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: listtargets
+      description: ListTargets
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.listtargets
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: putauthpolicy
+      description: PutAuthPolicy
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.putauthpolicy
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: putresourcepolicy
+      description: PutResourcePolicy
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.putresourcepolicy
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: registertargets
+      description: RegisterTargets
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.registertargets
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: startdomainverification
+      description: StartDomainVerification
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.startdomainverification
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: tagresource
+      description: TagResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.tagresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: untagresource
+      description: UntagResource
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.untagresource
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateaccesslogsubscription
+      description: UpdateAccessLogSubscription
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updateaccesslogsubscription
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatelistener
+      description: UpdateListener
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updatelistener
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateresourceconfiguration
+      description: UpdateResourceConfiguration
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updateresourceconfiguration
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateresourcegateway
+      description: UpdateResourceGateway
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updateresourcegateway
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updaterule
+      description: UpdateRule
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updaterule
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateservice
+      description: UpdateService
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updateservice
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateservicenetwork
+      description: UpdateServiceNetwork
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updateservicenetwork
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updateservicenetworkvpcassociation
+      description: UpdateServiceNetworkVpcAssociation
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updateservicenetworkvpcassociation
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
+    - name: updatetargetgroup
+      description: UpdateTargetGroup
+      hints:
+        readOnly: false
+        destructive: false
+        idempotent: false
+      call: amazon-vpc-lattice.updatetargetgroup
+      with:
+        body: tools.body
+      outputParameters:
+      - type: object
+        mapping: $.
