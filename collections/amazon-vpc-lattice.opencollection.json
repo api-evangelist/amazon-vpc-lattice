@@ -1,0 +1,1105 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "BatchUpdateRule",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/BatchUpdateRule",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "BatchUpdateRule"
+    },
+    {
+      "info": {
+        "name": "CreateAccessLogSubscription",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateAccessLogSubscription",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateAccessLogSubscription"
+    },
+    {
+      "info": {
+        "name": "CreateListener",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateListener",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateListener"
+    },
+    {
+      "info": {
+        "name": "CreateResourceConfiguration",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateResourceConfiguration",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateResourceConfiguration"
+    },
+    {
+      "info": {
+        "name": "CreateResourceGateway",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateResourceGateway",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateResourceGateway"
+    },
+    {
+      "info": {
+        "name": "CreateRule",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateRule",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateRule"
+    },
+    {
+      "info": {
+        "name": "CreateService",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateService",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateService"
+    },
+    {
+      "info": {
+        "name": "CreateServiceNetwork",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateServiceNetwork",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateServiceNetwork"
+    },
+    {
+      "info": {
+        "name": "CreateServiceNetworkResourceAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateServiceNetworkResourceAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateServiceNetworkResourceAssociation"
+    },
+    {
+      "info": {
+        "name": "CreateServiceNetworkServiceAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateServiceNetworkServiceAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateServiceNetworkServiceAssociation"
+    },
+    {
+      "info": {
+        "name": "CreateServiceNetworkVpcAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateServiceNetworkVpcAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateServiceNetworkVpcAssociation"
+    },
+    {
+      "info": {
+        "name": "CreateTargetGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/CreateTargetGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "CreateTargetGroup"
+    },
+    {
+      "info": {
+        "name": "DeleteAccessLogSubscription",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteAccessLogSubscription",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteAccessLogSubscription"
+    },
+    {
+      "info": {
+        "name": "DeleteAuthPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteAuthPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteAuthPolicy"
+    },
+    {
+      "info": {
+        "name": "DeleteDomainVerification",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteDomainVerification",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteDomainVerification"
+    },
+    {
+      "info": {
+        "name": "DeleteListener",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteListener",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteListener"
+    },
+    {
+      "info": {
+        "name": "DeleteResourceConfiguration",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteResourceConfiguration",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteResourceConfiguration"
+    },
+    {
+      "info": {
+        "name": "DeleteResourceEndpointAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteResourceEndpointAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteResourceEndpointAssociation"
+    },
+    {
+      "info": {
+        "name": "DeleteResourceGateway",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteResourceGateway",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteResourceGateway"
+    },
+    {
+      "info": {
+        "name": "DeleteResourcePolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteResourcePolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteResourcePolicy"
+    },
+    {
+      "info": {
+        "name": "DeleteRule",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteRule",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteRule"
+    },
+    {
+      "info": {
+        "name": "DeleteService",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteService",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteService"
+    },
+    {
+      "info": {
+        "name": "DeleteServiceNetwork",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteServiceNetwork",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteServiceNetwork"
+    },
+    {
+      "info": {
+        "name": "DeleteServiceNetworkResourceAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteServiceNetworkResourceAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteServiceNetworkResourceAssociation"
+    },
+    {
+      "info": {
+        "name": "DeleteServiceNetworkServiceAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteServiceNetworkServiceAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteServiceNetworkServiceAssociation"
+    },
+    {
+      "info": {
+        "name": "DeleteServiceNetworkVpcAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteServiceNetworkVpcAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteServiceNetworkVpcAssociation"
+    },
+    {
+      "info": {
+        "name": "DeleteTargetGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeleteTargetGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeleteTargetGroup"
+    },
+    {
+      "info": {
+        "name": "DeregisterTargets",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/DeregisterTargets",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "DeregisterTargets"
+    },
+    {
+      "info": {
+        "name": "GetAccessLogSubscription",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetAccessLogSubscription",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetAccessLogSubscription"
+    },
+    {
+      "info": {
+        "name": "GetAuthPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetAuthPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetAuthPolicy"
+    },
+    {
+      "info": {
+        "name": "GetDomainVerification",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetDomainVerification",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetDomainVerification"
+    },
+    {
+      "info": {
+        "name": "GetListener",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetListener",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetListener"
+    },
+    {
+      "info": {
+        "name": "GetResourceConfiguration",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetResourceConfiguration",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetResourceConfiguration"
+    },
+    {
+      "info": {
+        "name": "GetResourceGateway",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetResourceGateway",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetResourceGateway"
+    },
+    {
+      "info": {
+        "name": "GetResourcePolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetResourcePolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetResourcePolicy"
+    },
+    {
+      "info": {
+        "name": "GetRule",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetRule",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetRule"
+    },
+    {
+      "info": {
+        "name": "GetService",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetService",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetService"
+    },
+    {
+      "info": {
+        "name": "GetServiceNetwork",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetServiceNetwork",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetServiceNetwork"
+    },
+    {
+      "info": {
+        "name": "GetServiceNetworkResourceAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetServiceNetworkResourceAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetServiceNetworkResourceAssociation"
+    },
+    {
+      "info": {
+        "name": "GetServiceNetworkServiceAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetServiceNetworkServiceAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetServiceNetworkServiceAssociation"
+    },
+    {
+      "info": {
+        "name": "GetServiceNetworkVpcAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetServiceNetworkVpcAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetServiceNetworkVpcAssociation"
+    },
+    {
+      "info": {
+        "name": "GetTargetGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/GetTargetGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "GetTargetGroup"
+    },
+    {
+      "info": {
+        "name": "ListAccessLogSubscriptions",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListAccessLogSubscriptions",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListAccessLogSubscriptions"
+    },
+    {
+      "info": {
+        "name": "ListDomainVerifications",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListDomainVerifications",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListDomainVerifications"
+    },
+    {
+      "info": {
+        "name": "ListListeners",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListListeners",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListListeners"
+    },
+    {
+      "info": {
+        "name": "ListResourceConfigurations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListResourceConfigurations",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListResourceConfigurations"
+    },
+    {
+      "info": {
+        "name": "ListResourceEndpointAssociations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListResourceEndpointAssociations",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListResourceEndpointAssociations"
+    },
+    {
+      "info": {
+        "name": "ListResourceGateways",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListResourceGateways",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListResourceGateways"
+    },
+    {
+      "info": {
+        "name": "ListRules",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListRules",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListRules"
+    },
+    {
+      "info": {
+        "name": "ListServiceNetworkResourceAssociations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListServiceNetworkResourceAssociations",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListServiceNetworkResourceAssociations"
+    },
+    {
+      "info": {
+        "name": "ListServiceNetworks",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListServiceNetworks",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListServiceNetworks"
+    },
+    {
+      "info": {
+        "name": "ListServiceNetworkServiceAssociations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListServiceNetworkServiceAssociations",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListServiceNetworkServiceAssociations"
+    },
+    {
+      "info": {
+        "name": "ListServiceNetworkVpcAssociations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListServiceNetworkVpcAssociations",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListServiceNetworkVpcAssociations"
+    },
+    {
+      "info": {
+        "name": "ListServiceNetworkVpcEndpointAssociations",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListServiceNetworkVpcEndpointAssociations",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListServiceNetworkVpcEndpointAssociations"
+    },
+    {
+      "info": {
+        "name": "ListServices",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListServices",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListServices"
+    },
+    {
+      "info": {
+        "name": "ListTagsForResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListTagsForResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListTagsForResource"
+    },
+    {
+      "info": {
+        "name": "ListTargetGroups",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListTargetGroups",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListTargetGroups"
+    },
+    {
+      "info": {
+        "name": "ListTargets",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/ListTargets",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "ListTargets"
+    },
+    {
+      "info": {
+        "name": "PutAuthPolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/PutAuthPolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "PutAuthPolicy"
+    },
+    {
+      "info": {
+        "name": "PutResourcePolicy",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/PutResourcePolicy",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "PutResourcePolicy"
+    },
+    {
+      "info": {
+        "name": "RegisterTargets",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/RegisterTargets",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "RegisterTargets"
+    },
+    {
+      "info": {
+        "name": "StartDomainVerification",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/StartDomainVerification",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "StartDomainVerification"
+    },
+    {
+      "info": {
+        "name": "TagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/TagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "TagResource"
+    },
+    {
+      "info": {
+        "name": "UntagResource",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UntagResource",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UntagResource"
+    },
+    {
+      "info": {
+        "name": "UpdateAccessLogSubscription",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateAccessLogSubscription",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateAccessLogSubscription"
+    },
+    {
+      "info": {
+        "name": "UpdateListener",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateListener",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateListener"
+    },
+    {
+      "info": {
+        "name": "UpdateResourceConfiguration",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateResourceConfiguration",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateResourceConfiguration"
+    },
+    {
+      "info": {
+        "name": "UpdateResourceGateway",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateResourceGateway",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateResourceGateway"
+    },
+    {
+      "info": {
+        "name": "UpdateRule",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateRule",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateRule"
+    },
+    {
+      "info": {
+        "name": "UpdateService",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateService",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateService"
+    },
+    {
+      "info": {
+        "name": "UpdateServiceNetwork",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateServiceNetwork",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateServiceNetwork"
+    },
+    {
+      "info": {
+        "name": "UpdateServiceNetworkVpcAssociation",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateServiceNetworkVpcAssociation",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateServiceNetworkVpcAssociation"
+    },
+    {
+      "info": {
+        "name": "UpdateTargetGroup",
+        "type": "http"
+      },
+      "http": {
+        "method": "POST",
+        "url": "https://vpc-lattice.amazonaws.com/UpdateTargetGroup",
+        "body": {
+          "type": "json",
+          "data": "{}"
+        }
+      },
+      "docs": "UpdateTargetGroup"
+    }
+  ],
+  "bundled": true
+}
