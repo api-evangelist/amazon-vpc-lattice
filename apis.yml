@@ -43,6 +43,12 @@ apis:
       - type: FAQ
         url: https://aws.amazon.com/vpc/lattice/faqs/
 common:
+  - type: TrustCenter
+    url: security/amazon-vpc-lattice-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/amazon-vpc-lattice-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/amazon-vpc-lattice-domain-security.yml
   - type: Portal
     url: https://aws.amazon.com/
   - type: Website
