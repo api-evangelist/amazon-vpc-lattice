@@ -6,7 +6,19 @@ description: >-
   building features that matter to your business. It simplifies service-to-service connectivity and security across VPCs
   and accounts.
 type: Index
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: freemium
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Freemium
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amazon-vpc-lattice.png
 tags:
   - AWS
   - Microservices
@@ -17,31 +29,1514 @@ created: '2026-03-16'
 modified: '2026-05-19'
 specificationVersion: '0.19'
 apis:
-  - aid: amazon-vpc-lattice:amazon-vpc-lattice-api
-    name: Amazon VPC Lattice API
-    description: >-
-      The Amazon VPC Lattice API provides programmatic access to create and manage service networks, services, target
-      groups, listeners, rules, and access log subscriptions. It enables service-to-service connectivity with built-in
-      authentication and authorization across VPCs and AWS accounts.
-    humanURL: https://aws.amazon.com/vpc/lattice/
-    baseURL: https://vpc-lattice.amazonaws.com
-    tags:
-      - AWS
-      - Microservices
-      - Service Networking
-    properties:
-      - url: openapi/amazon-vpc-lattice-openapi.yml
-        type: OpenAPI
-      - type: Documentation
-        url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
-      - type: APIReference
-        url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
-      - type: GettingStarted
-        url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
-      - type: Pricing
-        url: https://aws.amazon.com/vpc/lattice/pricing/
-      - type: FAQ
-        url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-batchupdaterule-api
+  name: Amazon VPC Lattice BatchUpdateRule API
+  description: The BatchUpdateRule API from Amazon VPC Lattice — 1 operation(s) for batchupdaterule.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - BatchUpdateRule
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-batchupdaterule-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createaccesslogsubscription-api
+  name: Amazon VPC Lattice CreateAccessLogSubscription API
+  description: >-
+    The CreateAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for createaccesslogsubscription.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateAccessLogSubscription
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createaccesslogsubscription-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createlistener-api
+  name: Amazon VPC Lattice CreateListener API
+  description: The CreateListener API from Amazon VPC Lattice — 1 operation(s) for createlistener.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateListener
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createlistener-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createresourceconfiguration-api
+  name: Amazon VPC Lattice CreateResourceConfiguration API
+  description: >-
+    The CreateResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for createresourceconfiguration.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateResourceConfiguration
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createresourceconfiguration-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createresourcegateway-api
+  name: Amazon VPC Lattice CreateResourceGateway API
+  description: >-
+    The CreateResourceGateway API from Amazon VPC Lattice — 1 operation(s) for createresourcegateway.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateResourceGateway
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createresourcegateway-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createrule-api
+  name: Amazon VPC Lattice CreateRule API
+  description: The CreateRule API from Amazon VPC Lattice — 1 operation(s) for createrule.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateRule
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createrule-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createservice-api
+  name: Amazon VPC Lattice CreateService API
+  description: The CreateService API from Amazon VPC Lattice — 1 operation(s) for createservice.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateService
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createservice-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createservicenetwork-api
+  name: Amazon VPC Lattice CreateServiceNetwork API
+  description: >-
+    The CreateServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for createservicenetwork.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateServiceNetwork
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createservicenetwork-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createservicenetworkresourceassociation-api
+  name: Amazon VPC Lattice CreateServiceNetworkResourceAssociation API
+  description: >-
+    The CreateServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkresourceassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateServiceNetworkResourceAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createservicenetworkresourceassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createservicenetworkserviceassociation-api
+  name: Amazon VPC Lattice CreateServiceNetworkServiceAssociation API
+  description: >-
+    The CreateServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkserviceassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateServiceNetworkServiceAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createservicenetworkserviceassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createservicenetworkvpcassociation-api
+  name: Amazon VPC Lattice CreateServiceNetworkVpcAssociation API
+  description: >-
+    The CreateServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for createservicenetworkvpcassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateServiceNetworkVpcAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createservicenetworkvpcassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-createtargetgroup-api
+  name: Amazon VPC Lattice CreateTargetGroup API
+  description: >-
+    The CreateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for createtargetgroup.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - CreateTargetGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-createtargetgroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteaccesslogsubscription-api
+  name: Amazon VPC Lattice DeleteAccessLogSubscription API
+  description: >-
+    The DeleteAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for deleteaccesslogsubscription.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteAccessLogSubscription
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteaccesslogsubscription-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteauthpolicy-api
+  name: Amazon VPC Lattice DeleteAuthPolicy API
+  description: The DeleteAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for deleteauthpolicy.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteAuthPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteauthpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deletedomainverification-api
+  name: Amazon VPC Lattice DeleteDomainVerification API
+  description: >-
+    The DeleteDomainVerification API from Amazon VPC Lattice — 1 operation(s) for deletedomainverification.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteDomainVerification
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deletedomainverification-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deletelistener-api
+  name: Amazon VPC Lattice DeleteListener API
+  description: The DeleteListener API from Amazon VPC Lattice — 1 operation(s) for deletelistener.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteListener
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deletelistener-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteresourceconfiguration-api
+  name: Amazon VPC Lattice DeleteResourceConfiguration API
+  description: >-
+    The DeleteResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for deleteresourceconfiguration.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteResourceConfiguration
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteresourceconfiguration-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteresourceendpointassociation-api
+  name: Amazon VPC Lattice DeleteResourceEndpointAssociation API
+  description: >-
+    The DeleteResourceEndpointAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteresourceendpointassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteResourceEndpointAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteresourceendpointassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteresourcegateway-api
+  name: Amazon VPC Lattice DeleteResourceGateway API
+  description: >-
+    The DeleteResourceGateway API from Amazon VPC Lattice — 1 operation(s) for deleteresourcegateway.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteResourceGateway
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteresourcegateway-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteresourcepolicy-api
+  name: Amazon VPC Lattice DeleteResourcePolicy API
+  description: >-
+    The DeleteResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for deleteresourcepolicy.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteResourcePolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteresourcepolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleterule-api
+  name: Amazon VPC Lattice DeleteRule API
+  description: The DeleteRule API from Amazon VPC Lattice — 1 operation(s) for deleterule.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteRule
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleterule-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteservice-api
+  name: Amazon VPC Lattice DeleteService API
+  description: The DeleteService API from Amazon VPC Lattice — 1 operation(s) for deleteservice.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteService
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteservice-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteservicenetwork-api
+  name: Amazon VPC Lattice DeleteServiceNetwork API
+  description: >-
+    The DeleteServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetwork.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteServiceNetwork
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteservicenetwork-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteservicenetworkresourceassociation-api
+  name: Amazon VPC Lattice DeleteServiceNetworkResourceAssociation API
+  description: >-
+    The DeleteServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkresourceassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteServiceNetworkResourceAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteservicenetworkresourceassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteservicenetworkserviceassociation-api
+  name: Amazon VPC Lattice DeleteServiceNetworkServiceAssociation API
+  description: >-
+    The DeleteServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkserviceassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteServiceNetworkServiceAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteservicenetworkserviceassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deleteservicenetworkvpcassociation-api
+  name: Amazon VPC Lattice DeleteServiceNetworkVpcAssociation API
+  description: >-
+    The DeleteServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for deleteservicenetworkvpcassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteServiceNetworkVpcAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deleteservicenetworkvpcassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deletetargetgroup-api
+  name: Amazon VPC Lattice DeleteTargetGroup API
+  description: >-
+    The DeleteTargetGroup API from Amazon VPC Lattice — 1 operation(s) for deletetargetgroup.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeleteTargetGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deletetargetgroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-deregistertargets-api
+  name: Amazon VPC Lattice DeregisterTargets API
+  description: >-
+    The DeregisterTargets API from Amazon VPC Lattice — 1 operation(s) for deregistertargets.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - DeregisterTargets
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-deregistertargets-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getaccesslogsubscription-api
+  name: Amazon VPC Lattice GetAccessLogSubscription API
+  description: >-
+    The GetAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for getaccesslogsubscription.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetAccessLogSubscription
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getaccesslogsubscription-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getauthpolicy-api
+  name: Amazon VPC Lattice GetAuthPolicy API
+  description: The GetAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for getauthpolicy.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetAuthPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getauthpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getdomainverification-api
+  name: Amazon VPC Lattice GetDomainVerification API
+  description: >-
+    The GetDomainVerification API from Amazon VPC Lattice — 1 operation(s) for getdomainverification.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetDomainVerification
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getdomainverification-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getlistener-api
+  name: Amazon VPC Lattice GetListener API
+  description: The GetListener API from Amazon VPC Lattice — 1 operation(s) for getlistener.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetListener
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getlistener-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getresourceconfiguration-api
+  name: Amazon VPC Lattice GetResourceConfiguration API
+  description: >-
+    The GetResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for getresourceconfiguration.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetResourceConfiguration
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getresourceconfiguration-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getresourcegateway-api
+  name: Amazon VPC Lattice GetResourceGateway API
+  description: >-
+    The GetResourceGateway API from Amazon VPC Lattice — 1 operation(s) for getresourcegateway.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetResourceGateway
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getresourcegateway-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getresourcepolicy-api
+  name: Amazon VPC Lattice GetResourcePolicy API
+  description: >-
+    The GetResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for getresourcepolicy.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetResourcePolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getresourcepolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getrule-api
+  name: Amazon VPC Lattice GetRule API
+  description: The GetRule API from Amazon VPC Lattice — 1 operation(s) for getrule.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetRule
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getrule-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getservice-api
+  name: Amazon VPC Lattice GetService API
+  description: The GetService API from Amazon VPC Lattice — 1 operation(s) for getservice.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetService
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getservice-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getservicenetwork-api
+  name: Amazon VPC Lattice GetServiceNetwork API
+  description: >-
+    The GetServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for getservicenetwork.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetServiceNetwork
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getservicenetwork-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getservicenetworkresourceassociation-api
+  name: Amazon VPC Lattice GetServiceNetworkResourceAssociation API
+  description: >-
+    The GetServiceNetworkResourceAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkresourceassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetServiceNetworkResourceAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getservicenetworkresourceassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getservicenetworkserviceassociation-api
+  name: Amazon VPC Lattice GetServiceNetworkServiceAssociation API
+  description: >-
+    The GetServiceNetworkServiceAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkserviceassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetServiceNetworkServiceAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getservicenetworkserviceassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-getservicenetworkvpcassociation-api
+  name: Amazon VPC Lattice GetServiceNetworkVpcAssociation API
+  description: >-
+    The GetServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for getservicenetworkvpcassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetServiceNetworkVpcAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-getservicenetworkvpcassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-gettargetgroup-api
+  name: Amazon VPC Lattice GetTargetGroup API
+  description: The GetTargetGroup API from Amazon VPC Lattice — 1 operation(s) for gettargetgroup.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - GetTargetGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-gettargetgroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listaccesslogsubscriptions-api
+  name: Amazon VPC Lattice ListAccessLogSubscriptions API
+  description: >-
+    The ListAccessLogSubscriptions API from Amazon VPC Lattice — 1 operation(s) for listaccesslogsubscriptions.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListAccessLogSubscriptions
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listaccesslogsubscriptions-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listdomainverifications-api
+  name: Amazon VPC Lattice ListDomainVerifications API
+  description: >-
+    The ListDomainVerifications API from Amazon VPC Lattice — 1 operation(s) for listdomainverifications.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListDomainVerifications
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listdomainverifications-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listlisteners-api
+  name: Amazon VPC Lattice ListListeners API
+  description: The ListListeners API from Amazon VPC Lattice — 1 operation(s) for listlisteners.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListListeners
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listlisteners-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listresourceconfigurations-api
+  name: Amazon VPC Lattice ListResourceConfigurations API
+  description: >-
+    The ListResourceConfigurations API from Amazon VPC Lattice — 1 operation(s) for listresourceconfigurations.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListResourceConfigurations
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listresourceconfigurations-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listresourceendpointassociations-api
+  name: Amazon VPC Lattice ListResourceEndpointAssociations API
+  description: >-
+    The ListResourceEndpointAssociations API from Amazon VPC Lattice — 1 operation(s) for listresourceendpointassociations.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListResourceEndpointAssociations
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listresourceendpointassociations-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listresourcegateways-api
+  name: Amazon VPC Lattice ListResourceGateways API
+  description: >-
+    The ListResourceGateways API from Amazon VPC Lattice — 1 operation(s) for listresourcegateways.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListResourceGateways
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listresourcegateways-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listrules-api
+  name: Amazon VPC Lattice ListRules API
+  description: The ListRules API from Amazon VPC Lattice — 1 operation(s) for listrules.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListRules
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listrules-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listservicenetworkresourceassociations-api
+  name: Amazon VPC Lattice ListServiceNetworkResourceAssociations API
+  description: >-
+    The ListServiceNetworkResourceAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkresourceassociations.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListServiceNetworkResourceAssociations
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listservicenetworkresourceassociations-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listservicenetworks-api
+  name: Amazon VPC Lattice ListServiceNetworks API
+  description: >-
+    The ListServiceNetworks API from Amazon VPC Lattice — 1 operation(s) for listservicenetworks.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListServiceNetworks
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listservicenetworks-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listservicenetworkserviceassociations-api
+  name: Amazon VPC Lattice ListServiceNetworkServiceAssociations API
+  description: >-
+    The ListServiceNetworkServiceAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkserviceassociations.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListServiceNetworkServiceAssociations
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listservicenetworkserviceassociations-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listservicenetworkvpcassociations-api
+  name: Amazon VPC Lattice ListServiceNetworkVpcAssociations API
+  description: >-
+    The ListServiceNetworkVpcAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkvpcassociations.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListServiceNetworkVpcAssociations
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listservicenetworkvpcassociations-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api
+  name: Amazon VPC Lattice ListServiceNetworkVpcEndpointAssociations API
+  description: >-
+    The ListServiceNetworkVpcEndpointAssociations API from Amazon VPC Lattice — 1 operation(s) for listservicenetworkvpcendpointassociations.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListServiceNetworkVpcEndpointAssociations
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listservices-api
+  name: Amazon VPC Lattice ListServices API
+  description: The ListServices API from Amazon VPC Lattice — 1 operation(s) for listservices.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListServices
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listservices-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listtagsforresource-api
+  name: Amazon VPC Lattice ListTagsForResource API
+  description: >-
+    The ListTagsForResource API from Amazon VPC Lattice — 1 operation(s) for listtagsforresource.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListTagsForResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listtagsforresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listtargetgroups-api
+  name: Amazon VPC Lattice ListTargetGroups API
+  description: The ListTargetGroups API from Amazon VPC Lattice — 1 operation(s) for listtargetgroups.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListTargetGroups
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listtargetgroups-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-listtargets-api
+  name: Amazon VPC Lattice ListTargets API
+  description: The ListTargets API from Amazon VPC Lattice — 1 operation(s) for listtargets.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - ListTargets
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-listtargets-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-putauthpolicy-api
+  name: Amazon VPC Lattice PutAuthPolicy API
+  description: The PutAuthPolicy API from Amazon VPC Lattice — 1 operation(s) for putauthpolicy.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - PutAuthPolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-putauthpolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-putresourcepolicy-api
+  name: Amazon VPC Lattice PutResourcePolicy API
+  description: >-
+    The PutResourcePolicy API from Amazon VPC Lattice — 1 operation(s) for putresourcepolicy.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - PutResourcePolicy
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-putresourcepolicy-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-registertargets-api
+  name: Amazon VPC Lattice RegisterTargets API
+  description: The RegisterTargets API from Amazon VPC Lattice — 1 operation(s) for registertargets.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - RegisterTargets
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-registertargets-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-startdomainverification-api
+  name: Amazon VPC Lattice StartDomainVerification API
+  description: >-
+    The StartDomainVerification API from Amazon VPC Lattice — 1 operation(s) for startdomainverification.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - StartDomainVerification
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-startdomainverification-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-tagresource-api
+  name: Amazon VPC Lattice TagResource API
+  description: The TagResource API from Amazon VPC Lattice — 1 operation(s) for tagresource.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - TagResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-tagresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-untagresource-api
+  name: Amazon VPC Lattice UntagResource API
+  description: The UntagResource API from Amazon VPC Lattice — 1 operation(s) for untagresource.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UntagResource
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-untagresource-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updateaccesslogsubscription-api
+  name: Amazon VPC Lattice UpdateAccessLogSubscription API
+  description: >-
+    The UpdateAccessLogSubscription API from Amazon VPC Lattice — 1 operation(s) for updateaccesslogsubscription.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateAccessLogSubscription
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updateaccesslogsubscription-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updatelistener-api
+  name: Amazon VPC Lattice UpdateListener API
+  description: The UpdateListener API from Amazon VPC Lattice — 1 operation(s) for updatelistener.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateListener
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updatelistener-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updateresourceconfiguration-api
+  name: Amazon VPC Lattice UpdateResourceConfiguration API
+  description: >-
+    The UpdateResourceConfiguration API from Amazon VPC Lattice — 1 operation(s) for updateresourceconfiguration.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateResourceConfiguration
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updateresourceconfiguration-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updateresourcegateway-api
+  name: Amazon VPC Lattice UpdateResourceGateway API
+  description: >-
+    The UpdateResourceGateway API from Amazon VPC Lattice — 1 operation(s) for updateresourcegateway.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateResourceGateway
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updateresourcegateway-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updaterule-api
+  name: Amazon VPC Lattice UpdateRule API
+  description: The UpdateRule API from Amazon VPC Lattice — 1 operation(s) for updaterule.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateRule
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updaterule-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updateservice-api
+  name: Amazon VPC Lattice UpdateService API
+  description: The UpdateService API from Amazon VPC Lattice — 1 operation(s) for updateservice.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateService
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updateservice-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updateservicenetwork-api
+  name: Amazon VPC Lattice UpdateServiceNetwork API
+  description: >-
+    The UpdateServiceNetwork API from Amazon VPC Lattice — 1 operation(s) for updateservicenetwork.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateServiceNetwork
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updateservicenetwork-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updateservicenetworkvpcassociation-api
+  name: Amazon VPC Lattice UpdateServiceNetworkVpcAssociation API
+  description: >-
+    The UpdateServiceNetworkVpcAssociation API from Amazon VPC Lattice — 1 operation(s) for updateservicenetworkvpcassociation.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateServiceNetworkVpcAssociation
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updateservicenetworkvpcassociation-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
+- aid: amazon-vpc-lattice:amazon-vpc-lattice-updatetargetgroup-api
+  name: Amazon VPC Lattice UpdateTargetGroup API
+  description: >-
+    The UpdateTargetGroup API from Amazon VPC Lattice — 1 operation(s) for updatetargetgroup.
+  humanURL: https://aws.amazon.com/vpc/lattice/
+  baseURL: https://vpc-lattice.amazonaws.com
+  tags:
+  - UpdateTargetGroup
+  properties:
+  - type: OpenAPI
+    url: openapi/amazon-vpc-lattice-updatetargetgroup-api-openapi.yml
+  - type: Documentation
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
+  - type: APIReference
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/APIReference/
+  - type: GettingStarted
+    url: https://docs.aws.amazon.com/vpc-lattice/latest/ug/getting-started.html
+  - type: Pricing
+    url: https://aws.amazon.com/vpc/lattice/pricing/
+  - type: FAQ
+    url: https://aws.amazon.com/vpc/lattice/faqs/
 common:
   - type: AgenticAccess
     url: agentic-access/amazon-vpc-lattice-agentic-access.yml
