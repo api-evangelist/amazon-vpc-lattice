@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule ListTagsForResource API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListTagsForResource",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListTagsForResource",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/ListTagsForResource",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListTagsForResource"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

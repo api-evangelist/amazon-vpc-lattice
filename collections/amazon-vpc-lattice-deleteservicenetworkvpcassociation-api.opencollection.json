@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeleteServiceNetworkVpcAssociation API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteServiceNetworkVpcAssociation",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteServiceNetworkVpcAssociation",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeleteServiceNetworkVpcAssociation",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteServiceNetworkVpcAssociation"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

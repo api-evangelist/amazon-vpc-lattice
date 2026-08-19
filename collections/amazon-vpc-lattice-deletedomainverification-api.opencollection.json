@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeleteDomainVerification API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteDomainVerification",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteDomainVerification",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeleteDomainVerification",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteDomainVerification"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

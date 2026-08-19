@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeleteServiceNetwork API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteServiceNetwork",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteServiceNetwork",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeleteServiceNetwork",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteServiceNetwork"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeleteAccessLogSubscription API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteAccessLogSubscription",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteAccessLogSubscription",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeleteAccessLogSubscription",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteAccessLogSubscription"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

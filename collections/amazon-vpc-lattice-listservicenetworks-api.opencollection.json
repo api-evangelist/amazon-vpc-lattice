@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule ListServiceNetworks API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListServiceNetworks",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListServiceNetworks",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/ListServiceNetworks",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListServiceNetworks"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

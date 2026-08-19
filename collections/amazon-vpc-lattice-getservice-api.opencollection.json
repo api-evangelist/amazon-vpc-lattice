@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule GetService API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetService",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetService",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/GetService",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetService"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule ListResourceEndpointAssociations API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListResourceEndpointAssociations",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListResourceEndpointAssociations",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/ListResourceEndpointAssociations",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListResourceEndpointAssociations"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

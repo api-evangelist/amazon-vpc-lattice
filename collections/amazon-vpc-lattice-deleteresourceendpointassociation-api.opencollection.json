@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeleteResourceEndpointAssociation API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteResourceEndpointAssociation",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteResourceEndpointAssociation",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeleteResourceEndpointAssociation",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteResourceEndpointAssociation"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

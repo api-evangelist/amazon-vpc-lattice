@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule UpdateResourceGateway API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateResourceGateway",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateResourceGateway",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/UpdateResourceGateway",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateResourceGateway"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

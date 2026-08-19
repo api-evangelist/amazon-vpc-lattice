@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule UpdateServiceNetwork API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateServiceNetwork",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateServiceNetwork",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/UpdateServiceNetwork",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateServiceNetwork"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

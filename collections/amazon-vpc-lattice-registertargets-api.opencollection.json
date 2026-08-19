@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule RegisterTargets API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "RegisterTargets",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "RegisterTargets",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/RegisterTargets",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "RegisterTargets"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

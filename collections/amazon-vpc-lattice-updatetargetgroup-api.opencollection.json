@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule UpdateTargetGroup API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "UpdateTargetGroup",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "UpdateTargetGroup",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/UpdateTargetGroup",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "UpdateTargetGroup"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

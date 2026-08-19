@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule ListAccessLogSubscriptions API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListAccessLogSubscriptions",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListAccessLogSubscriptions",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/ListAccessLogSubscriptions",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListAccessLogSubscriptions"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

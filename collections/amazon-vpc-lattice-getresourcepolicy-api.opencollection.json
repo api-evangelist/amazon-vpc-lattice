@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule GetResourcePolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetResourcePolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetResourcePolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/GetResourcePolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetResourcePolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

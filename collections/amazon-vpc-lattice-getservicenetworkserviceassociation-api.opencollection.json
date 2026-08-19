@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule GetServiceNetworkServiceAssociation API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetServiceNetworkServiceAssociation",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetServiceNetworkServiceAssociation",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/GetServiceNetworkServiceAssociation",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetServiceNetworkServiceAssociation"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

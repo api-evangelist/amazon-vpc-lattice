@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeleteAuthPolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteAuthPolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteAuthPolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeleteAuthPolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteAuthPolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

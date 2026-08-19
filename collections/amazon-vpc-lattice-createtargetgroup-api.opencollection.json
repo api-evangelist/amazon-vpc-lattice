@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule CreateTargetGroup API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateTargetGroup",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateTargetGroup",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/CreateTargetGroup",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateTargetGroup"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

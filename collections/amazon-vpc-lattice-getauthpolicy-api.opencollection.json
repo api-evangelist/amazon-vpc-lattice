@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule GetAuthPolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetAuthPolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetAuthPolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/GetAuthPolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetAuthPolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

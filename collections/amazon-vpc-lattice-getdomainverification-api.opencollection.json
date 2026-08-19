@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule GetDomainVerification API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "GetDomainVerification",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "GetDomainVerification",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/GetDomainVerification",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "GetDomainVerification"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

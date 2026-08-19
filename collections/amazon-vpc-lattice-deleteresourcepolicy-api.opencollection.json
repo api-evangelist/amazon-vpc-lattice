@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeleteResourcePolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeleteResourcePolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeleteResourcePolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeleteResourcePolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeleteResourcePolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

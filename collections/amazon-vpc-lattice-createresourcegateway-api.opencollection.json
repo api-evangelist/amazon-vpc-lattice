@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule CreateResourceGateway API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateResourceGateway",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateResourceGateway",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/CreateResourceGateway",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateResourceGateway"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

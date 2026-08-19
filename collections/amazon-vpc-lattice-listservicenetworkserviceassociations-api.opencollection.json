@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule ListServiceNetworkServiceAssociations API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListServiceNetworkServiceAssociations",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListServiceNetworkServiceAssociations",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/ListServiceNetworkServiceAssociations",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListServiceNetworkServiceAssociations"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

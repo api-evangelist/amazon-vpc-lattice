@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule DeregisterTargets API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "DeregisterTargets",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "DeregisterTargets",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/DeregisterTargets",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "DeregisterTargets"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

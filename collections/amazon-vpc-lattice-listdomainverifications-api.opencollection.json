@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule ListDomainVerifications API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "ListDomainVerifications",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "ListDomainVerifications",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/ListDomainVerifications",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "ListDomainVerifications"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule PutResourcePolicy API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "PutResourcePolicy",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "PutResourcePolicy",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/PutResourcePolicy",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "PutResourcePolicy"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

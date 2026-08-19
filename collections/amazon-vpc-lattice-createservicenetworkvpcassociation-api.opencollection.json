@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule CreateServiceNetworkVpcAssociation API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "CreateServiceNetworkVpcAssociation",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "CreateServiceNetworkVpcAssociation",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/CreateServiceNetworkVpcAssociation",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "CreateServiceNetworkVpcAssociation"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}

@@ -1,0 +1,33 @@
+{
+  "opencollection": "1.0.0",
+  "info": {
+    "name": "Amazon VPC Lattice BatchUpdateRule API",
+    "version": "1.0.0"
+  },
+  "items": [
+    {
+      "info": {
+        "name": "BatchUpdateRule",
+        "type": "folder"
+      },
+      "items": [
+        {
+          "info": {
+            "name": "BatchUpdateRule",
+            "type": "http"
+          },
+          "http": {
+            "method": "POST",
+            "url": "https://vpc-lattice.amazonaws.com/BatchUpdateRule",
+            "body": {
+              "type": "json",
+              "data": "{}"
+            }
+          },
+          "docs": "BatchUpdateRule"
+        }
+      ]
+    }
+  ],
+  "bundled": true
+}
