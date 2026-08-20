@@ -469,6 +469,8 @@ apis:
   humanURL: https://aws.amazon.com/vpc/lattice/
   baseURL: https://vpc-lattice.amazonaws.com
   tags:
+  - '#DeleteService'
+  tags_raw:
   - DeleteService
   properties:
   - type: OpenAPI
@@ -1029,6 +1031,8 @@ apis:
   humanURL: https://aws.amazon.com/vpc/lattice/
   baseURL: https://vpc-lattice.amazonaws.com
   tags:
+  - List Rules
+  tags_raw:
   - ListRules
   properties:
   - type: OpenAPI
@@ -1154,6 +1158,8 @@ apis:
   humanURL: https://aws.amazon.com/vpc/lattice/
   baseURL: https://vpc-lattice.amazonaws.com
   tags:
+  - '#ListServices'
+  tags_raw:
   - ListServices
   properties:
   - type: OpenAPI
@@ -1460,6 +1466,8 @@ apis:
   humanURL: https://aws.amazon.com/vpc/lattice/
   baseURL: https://vpc-lattice.amazonaws.com
   tags:
+  - Update Service
+  tags_raw:
   - UpdateService
   properties:
   - type: OpenAPI
