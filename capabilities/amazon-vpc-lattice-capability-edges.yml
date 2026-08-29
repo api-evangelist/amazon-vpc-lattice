@@ -1,0 +1,374 @@
+slug: amazon-vpc-lattice
+provider: Amazon VPC Lattice
+generated_by: planning/capability-mapping/scripts/classify_capabilities.py
+model: claude-opus-5
+frame:
+- Software & Technology
+min_confidence: 0.7
+capability_model:
+  source: https://github.com/vincentmakes/turbo-ea-capabilities
+  license: CC-BY-4.0
+  attribution: Turbo EA Capabilities by Vincent Verdet — Turbo EA, https://github.com/vincentmakes/turbo-ea-capabilities,
+    CC BY 4.0
+  notice: NOTICE
+edge_count: 40
+edges:
+- tag: CreateServiceNetwork
+  spec_file: amazon-vpc-lattice-createservicenetwork-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.8
+  evidence: POST /CreateServiceNetwork — "application networking service that ... connects, monitors,
+    and secures communications between your services"
+  reason: Creating a service network is provisioning cloud network infrastructure, i.e. IT Infrastructure
+    Management (compute, storage, network, cloud).
+- tag: CreateServiceNetworkVpcAssociation
+  spec_file: amazon-vpc-lattice-createservicenetworkvpcassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.8
+  evidence: POST /CreateServiceNetworkVpcAssociation — "connectivity and security across VPCs and accounts"
+  reason: VPC association is explicitly cloud network plumbing, mapped to IT Infrastructure Management.
+- tag: ListServiceNetworkVpcAssociations
+  spec_file: amazon-vpc-lattice-listservicenetworkvpcassociations-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.8
+  evidence: POST /ListServiceNetworkVpcAssociations — "across VPCs and accounts"
+  reason: VPC-to-service-network associations are explicitly cloud network infrastructure configuration.
+- tag: ListServiceNetworkVpcEndpointAssociations
+  spec_file: amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.8
+  evidence: POST /ListServiceNetworkVpcEndpointAssociations — "connectivity and security across VPCs and
+    accounts"
+  reason: VPC endpoint associations to service networks; cloud network infrastructure management.
+- tag: ListServiceNetworks
+  spec_file: amazon-vpc-lattice-listservicenetworks-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.8
+  evidence: POST /ListServiceNetworks — "application networking service that consistently connects, monitors,
+    and secures communications between your services"
+  reason: Service networks are logical network boundaries in VPC Lattice; cloud network infrastructure
+    management.
+- tag: UpdateServiceNetworkVpcAssociation
+  spec_file: amazon-vpc-lattice-updateservicenetworkvpcassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.8
+  evidence: POST /UpdateServiceNetworkVpcAssociation — "across VPCs and accounts"
+  reason: Associating VPCs to a service network is plainly cloud network infrastructure management.
+- tag: CreateServiceNetworkResourceAssociation
+  spec_file: amazon-vpc-lattice-createservicenetworkresourceassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.78
+  evidence: POST /CreateServiceNetworkResourceAssociation
+  reason: Associating resources with a VPC Lattice service network is cloud/network infrastructure configuration,
+    not a business-domain capability.
+- tag: CreateServiceNetworkServiceAssociation
+  spec_file: amazon-vpc-lattice-createservicenetworkserviceassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.78
+  evidence: POST /CreateServiceNetworkServiceAssociation — "simplifies service-to-service connectivity
+    ... across VPCs and accounts"
+  reason: Network attachment of a service to a service network; cloud network infrastructure management.
+- tag: PutAuthPolicy
+  spec_file: amazon-vpc-lattice-putauthpolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.78
+  evidence: POST /PutAuthPolicy — service "secures communications between your services"
+  reason: Sets authorisation policy controlling which principals may call a service — access management,
+    not a business-domain function.
+- tag: CreateTargetGroup
+  spec_file: amazon-vpc-lattice-createtargetgroup-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /CreateTargetGroup
+  reason: Target groups are load-balancing/network routing constructs — cloud network infrastructure,
+    not a business capability.
+- tag: DeleteListener
+  spec_file: amazon-vpc-lattice-deletelistener-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /DeleteListener
+  reason: Listeners are network ingress constructs on a Lattice service — cloud network infrastructure
+    management.
+- tag: DeleteResourceGateway
+  spec_file: amazon-vpc-lattice-deleteresourcegateway-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /DeleteResourceGateway
+  reason: Resource gateways are network gateway components; managing them is cloud network infrastructure
+    management.
+- tag: DeleteServiceNetwork
+  spec_file: amazon-vpc-lattice-deleteservicenetwork-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /DeleteServiceNetwork — "connectivity and security across VPCs and accounts"
+  reason: Deletion of a service network construct is cloud network infrastructure management.
+- tag: DeleteServiceNetworkVpcAssociation
+  spec_file: amazon-vpc-lattice-deleteservicenetworkvpcassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /DeleteServiceNetworkVpcAssociation — "across VPCs and accounts"
+  reason: VPC-to-service-network association is unambiguously cloud network infrastructure management.
+- tag: ListListeners
+  spec_file: amazon-vpc-lattice-listlisteners-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /ListListeners — "application networking service that consistently connects, monitors,
+    and secures communications between your services"
+  reason: Listeners are network routing constructs in a VPC networking service; this is cloud network
+    infrastructure management.
+- tag: ListResourceGateways
+  spec_file: amazon-vpc-lattice-listresourcegateways-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /ListResourceGateways — "application networking service that consistently connects, monitors,
+    and secures communications between your services"
+  reason: Resource gateways are network ingress components; clearly cloud/network infrastructure management.
+- tag: ListServiceNetworkResourceAssociations
+  spec_file: amazon-vpc-lattice-listservicenetworkresourceassociations-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /ListServiceNetworkResourceAssociations — "simplifies service-to-service connectivity
+    and security across VPCs and accounts"
+  reason: Association of resources to service networks; cloud network infrastructure management.
+- tag: ListServiceNetworkServiceAssociations
+  spec_file: amazon-vpc-lattice-listservicenetworkserviceassociations-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /ListServiceNetworkServiceAssociations — "application networking service ... connects,
+    monitors, and secures communications between your services"
+  reason: Service-to-service-network associations are networking constructs, not business services; infrastructure
+    management.
+- tag: ListTargetGroups
+  spec_file: amazon-vpc-lattice-listtargetgroups-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /ListTargetGroups on the "Amazon VPC Lattice ... application networking service"
+  reason: Target groups are load-balancing/network routing constructs; listing them is cloud network infrastructure
+    management.
+- tag: UpdateResourceGateway
+  spec_file: amazon-vpc-lattice-updateresourcegateway-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /UpdateResourceGateway — "application networking service that consistently connects,
+    monitors, and secures communications between your services"
+  reason: VPC Lattice resource gateway update is cloud network infrastructure configuration, mapping to
+    IT Infrastructure Management.
+- tag: UpdateServiceNetwork
+  spec_file: amazon-vpc-lattice-updateservicenetwork-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /UpdateServiceNetwork — "connects, monitors, and secures communications between your
+    services"
+  reason: Service network is an explicit network construct; infrastructure/network management.
+- tag: UpdateTargetGroup
+  spec_file: amazon-vpc-lattice-updatetargetgroup-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.75
+  evidence: POST /UpdateTargetGroup — VPC Lattice "application networking service"
+  reason: Target group is a load-balancing/network routing construct; infrastructure management.
+- tag: CreateListener
+  spec_file: amazon-vpc-lattice-createlistener-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: '''POST /CreateListener'' in the ''Amazon VPC Lattice service API'' — ''application networking
+    service'''
+  reason: Creating a network listener is provisioning of network infrastructure (compute/network/cloud),
+    a Cross-Industry IT capability.
+- tag: CreateResourceGateway
+  spec_file: amazon-vpc-lattice-createresourcegateway-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: '''POST /CreateResourceGateway'' — ''simplifies service-to-service connectivity and security
+    across VPCs and accounts'''
+  reason: A resource gateway is a network ingress construct; provisioning it is IT Infrastructure Management.
+- tag: DeleteResourceEndpointAssociation
+  spec_file: amazon-vpc-lattice-deleteresourceendpointassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: POST /DeleteResourceEndpointAssociation
+  reason: Endpoint association is network connectivity plumbing across VPCs/accounts, mapped to IT Infrastructure
+    Management.
+- tag: DeleteServiceNetworkResourceAssociation
+  spec_file: amazon-vpc-lattice-deleteservicenetworkresourceassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: POST /DeleteServiceNetworkResourceAssociation
+  reason: Association of resources to a service network — cloud/network infrastructure configuration.
+- tag: DeleteServiceNetworkServiceAssociation
+  spec_file: amazon-vpc-lattice-deleteservicenetworkserviceassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: POST /DeleteServiceNetworkServiceAssociation
+  reason: Network association lifecycle within VPC Lattice; infrastructure configuration only.
+- tag: GetServiceNetworkVpcAssociation
+  spec_file: amazon-vpc-lattice-getservicenetworkvpcassociation-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: POST /GetServiceNetworkVpcAssociation — "connectivity and security across VPCs and accounts"
+  reason: 'Explicit VPC-to-service-network association: unambiguously cloud network infrastructure management.'
+- tag: ListTargets
+  spec_file: amazon-vpc-lattice-listtargets-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: POST /ListTargets — "application networking service that consistently connects ... services"
+  reason: Enumerating routing targets within a network service is compute/network infrastructure administration.
+- tag: PutResourcePolicy
+  spec_file: amazon-vpc-lattice-putresourcepolicy-api-openapi.yml
+  capability_id: BC-620.20
+  capability_id_l1: BC-620
+  capability_name: Identity & Access Management
+  confidence: 0.72
+  evidence: POST /PutResourcePolicy
+  reason: Resource-based IAM policy attachment governing cross-account access to the resource; identity
+    and access management.
+- tag: RegisterTargets
+  spec_file: amazon-vpc-lattice-registertargets-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: POST /RegisterTargets — "simplifies service-to-service connectivity ... across VPCs and accounts"
+  reason: Registering compute targets into a network target group is cloud network infrastructure configuration.
+- tag: UpdateListener
+  spec_file: amazon-vpc-lattice-updatelistener-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.72
+  evidence: POST /UpdateListener
+  reason: Listeners are network ingress/routing configuration on the application networking service —
+    cloud network infrastructure management.
+- tag: BatchUpdateRule
+  spec_file: amazon-vpc-lattice-batchupdaterule-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: '''POST /BatchUpdateRule'' in an ''application networking service that consistently connects,
+    monitors, and secures communications between your services'''
+  reason: Listener routing rules in a service-networking product are network infrastructure configuration;
+    'Rule' here is a traffic-routing rule, not a business or compliance rule.
+- tag: CreateRule
+  spec_file: amazon-vpc-lattice-createrule-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: '''POST /CreateRule'' in the ''Amazon VPC Lattice service API'' (''application networking
+    service'')'
+  reason: Routing rule creation for service listeners — network infrastructure configuration, homograph
+    with business 'rules' avoided.
+- tag: DeleteResourceConfiguration
+  spec_file: amazon-vpc-lattice-deleteresourceconfiguration-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /DeleteResourceConfiguration
+  reason: Resource configurations define network-reachable resources in VPC Lattice; infrastructure configuration
+    rather than a business function.
+- tag: DeleteService
+  spec_file: amazon-vpc-lattice-deleteservice-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /DeleteService — "simplifies service-to-service connectivity and security across VPCs
+    and accounts"
+  reason: '''Service'' here is a networking construct (Lattice service), so this is cloud network infrastructure
+    lifecycle, not IT service management or customer service.'
+- tag: DeleteTargetGroup
+  spec_file: amazon-vpc-lattice-deletetargetgroup-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /DeleteTargetGroup
+  reason: Target group is a load-balancing/networking construct; infrastructure management rather than
+    any business capability.
+- tag: GetServiceNetwork
+  spec_file: amazon-vpc-lattice-getservicenetwork-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /GetServiceNetwork — "connects, monitors, and secures communications between your services
+    ... across VPCs and accounts"
+  reason: Service network is explicitly a network construct; this is cloud network infrastructure management.
+- tag: ListResourceConfigurations
+  spec_file: amazon-vpc-lattice-listresourceconfigurations-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /ListResourceConfigurations — "simplifies service-to-service connectivity and security
+    across VPCs and accounts"
+  reason: Resource configurations are VPC Lattice networking resources; inventory/management of cloud
+    network infrastructure.
+- tag: ListResourceEndpointAssociations
+  spec_file: amazon-vpc-lattice-listresourceendpointassociations-api-openapi.yml
+  capability_id: BC-600.50
+  capability_id_l1: BC-600
+  capability_name: IT Infrastructure Management
+  confidence: 0.7
+  evidence: POST /ListResourceEndpointAssociations — "application networking service ... across VPCs and
+    accounts"
+  reason: Endpoint associations between VPC network resources; cloud network infrastructure management.

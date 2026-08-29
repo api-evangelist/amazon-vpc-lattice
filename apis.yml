@@ -1558,6 +1558,9 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/vpc/lattice/faqs/
 common:
+  - type: CapabilityMap
+    url: capabilities/amazon-vpc-lattice-capability-edges.yml
+    name: Amazon VPC Lattice Business Capability Map
   - type: AgenticAccess
     url: agentic-access/amazon-vpc-lattice-agentic-access.yml
   - type: TrustCenter
