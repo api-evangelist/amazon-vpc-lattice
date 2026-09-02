@@ -1,6 +1,6 @@
-openapi: 3.1.0
+openapi: 3.2.0
 info:
-  title: Amazon VPC Lattice BatchUpdateRule UpdateAccessLogSubscription API
+  title: Amazon VPC Lattice BatchUpdateRule Update Access Log Subscription API
   version: 1.0.0
   description: Minimal OpenAPI representation of the Amazon VPC Lattice service API. Operations follow the AWS RPC-over-HTTP convention.
 servers:
