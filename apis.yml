@@ -1550,6 +1550,8 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/vpc/lattice/faqs/
 common:
+  - type: Plans
+    url: plans/amazon-vpc-lattice-plans-pricing.yml
   - type: CapabilityMap
     url: capabilities/amazon-vpc-lattice-capability-edges.yml
     name: Amazon VPC Lattice Business Capability Map
