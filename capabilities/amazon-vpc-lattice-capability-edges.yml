@@ -263,7 +263,8 @@ edges:
   evidence: POST /GetServiceNetworkVpcAssociation — "connectivity and security across VPCs and accounts"
   reason: 'Explicit VPC-to-service-network association: unambiguously cloud network infrastructure management.'
 - tag: ListTargets
-  spec_file: amazon-vpc-lattice-listtargets-api-openapi.yml
+  spec_file: amazon-vpc-lattice-list-targets-api-openapi.yml
+  reanchored_from: amazon-vpc-lattice-listtargets-api-openapi.yml
   capability_id: BC-600.50
   capability_id_l1: BC-600
   capability_name: IT Infrastructure Management
@@ -326,7 +327,8 @@ edges:
   reason: Resource configurations define network-reachable resources in VPC Lattice; infrastructure configuration
     rather than a business function.
 - tag: DeleteService
-  spec_file: amazon-vpc-lattice-deleteservice-api-openapi.yml
+  spec_file: amazon-vpc-lattice-delete-service-api-openapi.yml
+  reanchored_from: amazon-vpc-lattice-deleteservice-api-openapi.yml
   capability_id: BC-600.50
   capability_id_l1: BC-600
   capability_name: IT Infrastructure Management
