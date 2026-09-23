@@ -1,12 +1,12 @@
 openapi: 3.2.0
 info:
-  title: Amazon VPC Lattice BatchUpdateRule List Targets API
+  title: Amazon VPC Lattice List Targets API
   version: 1.0.0
   description: Minimal OpenAPI representation of the Amazon VPC Lattice service API. Operations follow the AWS RPC-over-HTTP convention.
 servers:
 - url: https://vpc-lattice.amazonaws.com
 tags:
-- name: ListTargets
+- name: List Targets
 paths:
   /ListTargets:
     post:
@@ -25,6 +25,6 @@ paths:
               schema:
                 type: object
       tags:
-      - ListTargets
+      - List Targets
 x-generated-from: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
 x-generated-by: claude-crawl-2026-05-08

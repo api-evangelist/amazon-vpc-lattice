@@ -1,17 +1,17 @@
 openapi: 3.2.0
 info:
-  title: Amazon VPC Lattice BatchUpdateRule List Tags For Resource API
+  title: Amazon VPC Lattice Delete Service API
   version: 1.0.0
   description: Minimal OpenAPI representation of the Amazon VPC Lattice service API. Operations follow the AWS RPC-over-HTTP convention.
 servers:
 - url: https://vpc-lattice.amazonaws.com
 tags:
-- name: ListTagsForResource
+- name: Delete Service
 paths:
-  /ListTagsForResource:
+  /DeleteService:
     post:
-      summary: ListTagsForResource
-      operationId: ListTagsForResource
+      summary: DeleteService
+      operationId: DeleteService
       requestBody:
         content:
           application/json:
@@ -25,6 +25,6 @@ paths:
               schema:
                 type: object
       tags:
-      - ListTagsForResource
+      - Delete Service
 x-generated-from: https://docs.aws.amazon.com/vpc-lattice/latest/ug/
 x-generated-by: claude-crawl-2026-05-08
