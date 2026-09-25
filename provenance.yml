@@ -136,11 +136,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-vpc-lattice-deleterule-api
   collections/amazon-vpc-lattice-deleteservice-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-deleteservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-deleteservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-deleteservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-deleteservicenetwork-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-vpc-lattice-deleteservicenetwork-api
@@ -298,11 +298,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-vpc-lattice-listresourcegateways-api
   collections/amazon-vpc-lattice-listrules-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listrules-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-listrules-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listrules-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-listservicenetworkresourceassociations-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-vpc-lattice-listservicenetworkresourceassociations-api
@@ -334,17 +334,17 @@ artifacts:
     method: derived
     evidence: openapi/amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api
   collections/amazon-vpc-lattice-listservices-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listservices-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-listservices-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listservices-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-listtagsforresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listtagsforresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-listtagsforresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listtagsforresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-listtargetgroups-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-vpc-lattice-listtargetgroups-api
@@ -352,11 +352,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-vpc-lattice-listtargetgroups-api
   collections/amazon-vpc-lattice-listtargets-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listtargets-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-listtargets-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-listtargets-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-putauthpolicy-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-vpc-lattice-putauthpolicy-api
@@ -382,17 +382,17 @@ artifacts:
     method: derived
     evidence: openapi/amazon-vpc-lattice-startdomainverification-api
   collections/amazon-vpc-lattice-tagresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-tagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-tagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-tagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-untagresource-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-untagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-untagresource-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-untagresource-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-updateaccesslogsubscription-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-vpc-lattice-updateaccesslogsubscription-api
@@ -424,11 +424,11 @@ artifacts:
     method: derived
     evidence: openapi/amazon-vpc-lattice-updaterule-api
   collections/amazon-vpc-lattice-updateservice-api.opencollection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-updateservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-updateservice-api.postman_collection.json:
-    method: derived
-    evidence: openapi/amazon-vpc-lattice-updateservice-api
+    method: unknown
+    evidence: no authorship recorded
   collections/amazon-vpc-lattice-updateservicenetwork-api.opencollection.json:
     method: derived
     evidence: openapi/amazon-vpc-lattice-updateservicenetwork-api
@@ -459,58 +459,13 @@ artifacts:
   finops/amazon-vpc-lattice-finops.yml:
     method: generated
     evidence: declared in the artifact
+  front-door-ai/2026-09-17.yml:
+    method: unknown
+    evidence: no authorship recorded
   json-ld/amazon-vpc-lattice-context.jsonld:
     method: unknown
     evidence: no authorship recorded
-  kin/checks-2026-09-05T072335.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-06T210741.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-07T135032.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-10T093022.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-10T111628.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-11T211707.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-12T193225.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-17T064519.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-19T080027.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-19T082702.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-19T114122.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-20T165047.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-20T191845.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-20T205517.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-21T110057.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-24T064859.yml:
-    method: generated
-    evidence: Kin Score snapshot written by score.rb
-  kin/score-2026-08-24T171257.yml:
+  kin/checks-2026-09-24T161608.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
   kin/score-2026-08-25T125852.yml:
@@ -597,6 +552,123 @@ artifacts:
   kin/score-2026-09-05T072335.yml:
     method: generated
     evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-05T144739.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-05T195450.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-05T211839.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-06T011047.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-06T211804.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-06T224210.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-07T200636.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-07T213054.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-08T214843.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-08T232836.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-10T204815.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-10T222408.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T062655.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T080032.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T204651.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-12T221936.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-13T214537.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-14T064754.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-14T210656.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-14T225847.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-15T211329.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-15T230249.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-16T210549.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-16T225339.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-17T211151.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-17T233623.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-18T205255.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-18T231945.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-19T165737.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-19T193153.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-20T205903.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-20T232958.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-21T211425.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-21T233935.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-22T213221.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-23T000603.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-24T064009.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-24T090406.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
+  kin/score-2026-09-24T161608.yml:
+    method: generated
+    evidence: Kin Score snapshot written by score.rb
   openapi/amazon-vpc-lattice-batchupdaterule-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -633,6 +705,9 @@ artifacts:
   openapi/amazon-vpc-lattice-createtargetgroup-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  openapi/amazon-vpc-lattice-delete-service-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
   openapi/amazon-vpc-lattice-deleteaccesslogsubscription-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -658,9 +733,6 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-vpc-lattice-deleterule-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-deleteservice-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-vpc-lattice-deleteservicenetwork-api-openapi.yml:
@@ -723,6 +795,18 @@ artifacts:
   openapi/amazon-vpc-lattice-gettargetgroup-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
+  openapi/amazon-vpc-lattice-list-rules-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-vpc-lattice-list-services-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-vpc-lattice-list-tags-for-resource-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-vpc-lattice-list-targets-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
   openapi/amazon-vpc-lattice-listaccesslogsubscriptions-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -741,9 +825,6 @@ artifacts:
   openapi/amazon-vpc-lattice-listresourcegateways-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-listrules-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
   openapi/amazon-vpc-lattice-listservicenetworkresourceassociations-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -759,16 +840,7 @@ artifacts:
   openapi/amazon-vpc-lattice-listservicenetworkvpcendpointassociations-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-listservices-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-listtagsforresource-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
   openapi/amazon-vpc-lattice-listtargetgroups-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-listtargets-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-vpc-lattice-putauthpolicy-api-openapi.yml:
@@ -783,10 +855,13 @@ artifacts:
   openapi/amazon-vpc-lattice-startdomainverification-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-tagresource-api-openapi.yml:
+  openapi/amazon-vpc-lattice-tag-resource-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-untagresource-api-openapi.yml:
+  openapi/amazon-vpc-lattice-untag-resource-api-openapi.yml:
+    method: unknown
+    evidence: no authorship recorded
+  openapi/amazon-vpc-lattice-update-service-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
   openapi/amazon-vpc-lattice-updateaccesslogsubscription-api-openapi.yml:
@@ -804,9 +879,6 @@ artifacts:
   openapi/amazon-vpc-lattice-updaterule-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
-  openapi/amazon-vpc-lattice-updateservice-api-openapi.yml:
-    method: unknown
-    evidence: no authorship recorded
   openapi/amazon-vpc-lattice-updateservicenetwork-api-openapi.yml:
     method: unknown
     evidence: no authorship recorded
@@ -817,8 +889,11 @@ artifacts:
     method: unknown
     evidence: no authorship recorded
   plans/amazon-vpc-lattice-plans-pricing.yml:
-    method: generated
+    method: searched
     evidence: declared in the artifact
+  plans/amazon-vpc-lattice-price-estimates.yml:
+    method: unknown
+    evidence: no authorship recorded
   rate-limits/amazon-vpc-lattice-rate-limits.yml:
     method: generated
     evidence: declared in the artifact
