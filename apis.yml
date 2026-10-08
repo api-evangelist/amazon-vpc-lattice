@@ -1550,6 +1550,10 @@ apis:
   - type: FAQ
     url: https://aws.amazon.com/vpc/lattice/faqs/
 common:
+  - type: RateLimits
+    url: rate-limits/amazon-vpc-lattice-rate-limits.yml
+  - type: FinOps
+    url: finops/amazon-vpc-lattice-finops.yml
   - type: Pricing
     url: https://aws.amazon.com/vpc/lattice/pricing/
   - type: Plans
