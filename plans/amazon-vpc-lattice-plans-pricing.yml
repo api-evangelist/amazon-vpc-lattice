@@ -1,0 +1,137 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-09-20'
+method: searched
+source: https://aws.amazon.com/vpc/lattice/pricing/
+sources:
+- https://aws.amazon.com/vpc/lattice/pricing/
+provenance:
+  tool: planning/api-economics/harvest_pricing.py
+  run: 20260920T120546
+  grounding: every price_text was found verbatim in the fetched page text
+audience: developer-api
+pricing_basis: usage-other
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-09-20'
+published: true
+note: Main rate table uses unrendered price tokens; numeric prices appear in the VPC resource tier table
+  and in the pricing examples (us-east-1). VPC association and Service Network Endpoints at no additional
+  cost.
+plan_count: 7
+currency: USD
+plans:
+- name: VPC resources data processed - first 1 PB
+  price_text: $0.01
+  price: 0.01
+  currency: USD
+  period: per-use
+  unit: per GB data processed when accessing VPC resources
+  included_quota: First 1 PB
+- name: VPC resources data processed - next 4 PB
+  price_text: $0.006
+  price: 0.006
+  currency: USD
+  period: per-use
+  unit: per GB
+  included_quota: Next 4 PB
+- name: VPC resources data processed - over 5 PB
+  price_text: $0.004
+  price: 0.004
+  currency: USD
+  period: per-use
+  unit: per GB
+  included_quota: Anything over 5 PB
+- name: VPC Lattice service hourly (US East N. Virginia, per pricing example)
+  price_text: $0.025 per hour
+  price: 0.025
+  currency: USD
+  period: per-use
+  unit: per service per hour
+- name: VPC Lattice data processing (US East N. Virginia, per pricing example)
+  price_text: $0.025 per GB
+  price: 0.025
+  currency: USD
+  period: per-use
+  unit: per GB
+- name: VPC Lattice requests/connections (US East N. Virginia, per pricing example)
+  price_text: $0.10 / 1M requests
+  price: 0.1
+  currency: USD
+  period: per-use
+  unit: per 1 million requests/connections
+  included_quota: Always Free Tier of 300,000 requests/connections per hour
+- name: VPC resource hourly charge (example)
+  price_text: $0.10 per resource per hour
+  price: 0.1
+  currency: USD
+  period: per-use
+  unit: per resource per hour
+rate_limit_statements:
+- we deduct 300,000 from the number of requests/connections in an hour
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - hybrid
+  - subscription
+  units:
+  - compute
+  - data
+  plans:
+  - name: VPC resources data processed - first 1 PB
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: VPC resources data processed - next 4 PB
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: VPC resources data processed - over 5 PB
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: VPC Lattice service hourly (US East N. Virginia, per pricing example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
+  - name: VPC Lattice data processing (US East N. Virginia, per pricing example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - data
+    periods:
+    - other
+  - name: VPC Lattice requests/connections (US East N. Virginia, per pricing example)
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods:
+    - other
+  - name: VPC resource hourly charge (example)
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - compute
+    periods:
+    - other
