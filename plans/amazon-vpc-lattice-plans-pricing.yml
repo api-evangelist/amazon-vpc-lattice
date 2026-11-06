@@ -70,14 +70,14 @@ plans:
 rate_limit_statements:
 - we deduct 300,000 from the number of requests/connections in an hour
 x-canonical:
-  generated: '2026-11-02'
+  generated: '2026-11-06'
   vocabulary: engine/economics/plans-canonical.yml
   models:
   - hybrid
-  - subscription
   units:
   - compute
   - data
+  - request
   plans:
   - name: VPC resources data processed - first 1 PB
     access: other
@@ -121,10 +121,10 @@ x-canonical:
     - other
   - name: VPC Lattice requests/connections (US East N. Virginia, per pricing example)
     access: other
-    model: subscription
+    model: hybrid
     model_how: derived
     units:
-    - other
+    - request
     periods:
     - other
   - name: VPC resource hourly charge (example)
